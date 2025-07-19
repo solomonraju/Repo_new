@@ -1,0 +1,582 @@
+
+kZID_Act_DialogBlackBorder				= 1500;
+
+kZID_Act_Upgrade_Check_Title						= 3900;
+kZID_Act_Upgrade_Check_Pane							= 3901;
+kZID_Act_Upgrade_Check_Popup_Box					= 3902;
+kZID_Act_Upgrade_Check_Serial_Number				= 3903;
+kZID_Act_Upgrade_Check_Btn_Ok						= 3904;
+kZID_Act_Upgrade_Check_Btn_Quit						= 3905;
+kZID_Act_Upgrade_Check_btn_Cancel					= 3906;
+kZID_Act_Upgrade_Check_Btn_Later					= 3908;
+kZID_Act_Upgrade_Check_Popup_Box1					= 3909;
+kZID_Act_Upgrade_Check_Serial_Number1				= 3910;
+kZID_Act_Upgrade_Check_Popup_Label_Box1				= 3911;
+kZID_Act_Upgrade_Check_Serial_Label_Number1			= 3912;
+kZID_Act_Upgarde_Check_Picture_Tick1				= 3913;
+kZID_Act_Upgarde_Check_Picture_Tick2				= 3914;
+kZID_Act_Upgarde_Check_Picture_Cross1				= 3915;
+kZID_Act_Upgarde_Check_Picture_Cross2				= 3916;
+
+
+kZID_Act_Upgrade_Check_UnLockKeyCode_Title			= 4000;
+kZID_Act_Upgrade_Check_UnLockKeyCode_Pane			= 4001;
+kZID_Act_Upgrade_Check_UnLockKeyCode_Key			= 4002;
+kZID_Act_Upgrade_Check_UnLockKeyCode_btn_Cancel		= 4003;
+kZID_Act_Upgrade_Check_UnLockKeyCode_btn_Ok			= 4004;	
+kZID_Act_Upgrade_Check_UnLockKeyCode_Code			= 4005;
+kZID_Act_Upgrade_Check_UnLockKeyCode_TextStepOne	= 4006;
+kZID_Act_Upgrade_Check_UnLockKeyCode_TextStepTwo	= 4007;
+kZID_Act_Upgrade_Check_UnLockKeyCode_Picture_Tick	= 4009; 
+kZID_Act_Upgrade_Check_UnLockKeyCode_Picture_Cross	= 4010; 
+
+kZID_Act_FirstLaunch_Ser1_Title						= 4200;
+kZID_Act_FirstLaunch_Ser1_Pane						= 4201;
+kZID_Act_FirstLaunch_Ser1_RadioBtn_Try				= 4202;
+kZID_Act_FirstLaunch_Ser1_RadioBtn_Serialize		= 4203;
+kZID_Act_FirstLaunch_Ser1_Hyperlink_About			=  4206;
+kZID_Act_FirstLaunch_Ser1_Hyperlink_Eula			=  4207;
+kZID_Act_FirstLaunch_Ser1_Btn_Cancel				=  4208;
+kZID_Act_FirstLaunch_Ser1_Btn_Next				=  4209;
+kZID_Act_FirstLaunch_Ser1_EditBox_1stPart			= 4210;
+kZID_Act_FirstLaunch_Ser1_EditBox_2ndPart			= 4211;
+kZID_Act_FirstLaunch_Ser1_EditBox_3rdPart			= 4212;
+kZID_Act_FirstLaunch_Ser1_EditBox_4thPart			= 4213;
+kZID_Act_FirstLaunch_Ser1_EditBox_5thPart			= 4214;
+kZID_Act_FirstLaunch_Ser1_EditBox_6thPart			= 4215;
+kZID_Act_FirstLaunch_Ser1_Picture_Tick				= 4216;
+kZID_Act_FirstLaunch_Ser1_RadioBtn_Try_Text			= 4217;
+kZID_Act_FirstLaunch_Ser1_Picture_Cross				= 4218;
+
+
+kZID_Act_SecondLaunch_Ser1_Grace_Title						= 4300;
+kZID_Act_SecondLaunch_Ser1_Grace_Pane						= 4301;
+kZID_Act_SecondLaunch_Ser1_Grace_TrialMeter					= 4302;
+kZID_Act_SecondLaunch_Ser1_Grace_RadioBtn_ContinueTrial		= 4303;
+kZID_Act_SecondLaunch_Ser1_Grace_RadioBtn_Serialize			= 4304;
+kZID_Act_SecondLaunch_Ser1_Grace_Pict1						= 4305;
+kZID_Act_SecondLaunch_Ser1_Grace_Hyperlink_Buy				= 4308;
+kZID_Act_SecondLaunch_Ser1_Grace_Hyperlink_About			= 4309;
+kZID_Act_SecondLaunch_Ser1_Grace_Hyperlink_Eula				= 4310;
+kZID_Act_SecondLaunch_Ser1_Grace_Btn_Cancel					= 4311;
+kZID_Act_SecondLaunch_Ser1_Grace_Btn_Next					= 4312;
+kZID_Act_SecondLaunch_Ser1_EditBox_1stPart					= 4313;
+kZID_Act_SecondLaunch_Ser1_EditBox_2ndPart					= 4314;
+kZID_Act_SecondLaunch_Ser1_EditBox_3rdPart					= 4315;
+kZID_Act_SecondLaunch_Ser1_EditBox_4thPart					= 4316;
+kZID_Act_SecondLaunch_Ser1_EditBox_5thPart					= 4317;
+kZID_Act_SecondLaunch_Ser1_EditBox_6thPart					= 4318;
+kZID_Act_SecondLaunch_Ser1_Picture_Tick						= 4319;
+kZID_Act_SecondLaunch_Ser1_Picture_Cross					= 4320;
+kZID_Act_SecondLaunch_Ser1_Para1						= 4321;
+
+
+
+
+kZID_Act_SecondLaunch_Ser1_Expired_Title					= 4400;
+kZID_Act_SecondLaunch_Ser1_Expired_Pane						= 4401;
+kZID_Act_SecondLaunch_Ser1_Expired_TrialMeter				= 4402;
+kZID_Act_SecondLaunch_Ser1_Expired_RadioBtn_Quit			= 4403;
+kZID_Act_SecondLaunch_Ser1_Expired_RadioBtn_Serialize		= 4404;
+kZID_Act_SecondLaunch_Ser1_Expired_Pict1					= 4405;
+kZID_Act_SecondLaunch_Ser1_Expired_Hyperlink_Buy			= 4408;
+kZID_Act_SecondLaunch_Ser1_Expired_Hyperlink_About			= 4409;
+kZID_Act_SecondLaunch_Ser1_Expired_Hyperlink_Eula			= 4410;
+kZID_Act_SecondLaunch_Ser1_Expired_Btn_Cancel				= 4411;
+kZID_Act_SecondLaunch_Ser1_Expired_Btn_Next					= 4412;
+kZID_Act_SecondLaunch_Ser1_Expired_EditBox_1stPart			= 4413;
+kZID_Act_SecondLaunch_Ser1_Expired_EditBox_2ndPart			= 4414;
+kZID_Act_SecondLaunch_Ser1_Expired_EditBox_3rdPart			= 4415;
+kZID_Act_SecondLaunch_Ser1_Expired_EditBox_4thPart			= 4416;
+kZID_Act_SecondLaunch_Ser1_Expired_EditBox_5thPart			= 4417;
+kZID_Act_SecondLaunch_Ser1_Expired_EditBox_6thPart			= 4418;
+kZID_Act_SecondLaunch_Ser1_Expired_Picture_Tick				= 4419;
+kZID_Act_SecondLaunch_Ser1_Expired_Picture_Cross			= 4420;
+kZID_Act_SecondLaunch_Ser1_Expired_Para1					= 4421;
+
+kZID_Act_LoadTrialASRFailed_Title					= 4500;
+kZID_Act_LoadTrialASRFailed_Pane					= 4501;
+kZID_Act_LoadTrialASRFailed_Btn_Cancel					= 4502;
+kZID_Act_LoadTrialASRFailed_Btn_Continue				= 4503;
+
+kZID_Def_Dummy_Btn		= 1000;
+
+WS_CHILD = 1073741824;
+WS_TABSTOP = 65536;
+WS_EX_TOPMOST = 8;
+ES_READONLY = 2048;
+
+
+kALMTrialMeterHeight = 33;
+kALMTrialMeterWidth = 400;
+
+lineSpace	 				= 3;
+gap		     				= 10;
+kIndentationOffset			= 12;
+
+kDialogVerticalSpacing		= 5;
+
+kLongButtonWidth			= 160;
+kExtraLongButtonWidth		= kLongButtonWidth+16;
+kShortButtonWidth			= 95;
+kButtonHeight				= 17;
+kButtonSpace				= 10;
+
+kSmallIconWidth				= 32;
+kSmallIconHeight			= 32;
+
+kAlertClusterMarginWidth	= gMediumSpace;
+kAlertTextWidth				= 590 - kAlertClusterMarginWidth - kAlertClusterMarginWidth - kSmallIconWidth - 5;
+
+kMovableModalWindowClass      = 4;
+
+kRedColor					= '{65535, 0, 0}';
+kBlueColor					= '{0, 0, 65535}';
+
+kDialogSmallMarginWidth 	= 15;
+kDialogMediumMarginWidth	= 15;
+kDialogLargeMarginWidth 	= 35;
+
+kDialogSmallMarginTop   	= 16;
+kDialogMediumMarginTop		= 37;
+kDialogLargeMarginTop		= 55;
+
+kDialogSmallMarginBottom	= 18;
+kDialogMediumMarginBottom	= 45;
+kDialogLargeMarginBottom	= 65;
+
+kSeparatorWidth				= 510+100;
+kDialogWindowWidth 			= 669+100;
+kDialogWindowHeight 		= 538-28;
+
+kStringTitleWidth			= 500+120;
+kStringSubpaneWidth 		= 460+100+25;
+kStringSubpane3QtrWidth		= 350+100;
+
+kStringWidth				= 400+100;
+kStringMaxWidth 			= 460+100;
+kTextBottomMargin			= 10;
+
+kBoundingBoxExtraLength		= 30;
+
+kStringQtrWidth				= 100+100;
+
+kHyperlinkOffset			= 8;
+
+kTrailMeterLeftOffset		= 40+100;
+kBuyButtonMarginRight		= 20;
+kBottomButtonMarginLeft		= 8;
+kBottomButtonMarginBottom	= 8;
+kPhoneNumberTextWidth		= 275;
+kSerialNumberTextWidth		= 300;
+kClusterBoxWidth			= kStringSubpaneWidth-20;
+
+kDaysRemaingFontSize		= 10;
+kPopupBtnWidth 			= kStringQtrWidth+50;
+
+kTitleFontSize			= 14;
+
+dialog( type: kMovableModalWindowClass, close_box: true, name: '$$$/alm/common/window_title')
+{
+	font = font_small;
+
+	group(placement: place_offscreen, margin_left: 137)
+	{
+		font = font_big_bold;
+		font_size = kTitleFontSize;
+		
+		
+		static_text( width: kStringTitleWidth, view_id: kZID_Act_FirstLaunch_Ser1_Title, name: '$$$/alm/dlg/activation/first_launch/serialization_1/title', visible: false );
+		static_text( width: kStringTitleWidth, view_id: kZID_Act_SecondLaunch_Ser1_Grace_Title, name: '$$$/alm/dlg/activation/second_launch/serialization_1/grace/title', visible: false);
+		static_text( width: kStringTitleWidth, view_id: kZID_Act_SecondLaunch_Ser1_Expired_Title, name: '$$$/alm/dlg/activation/second_launch/serialization_1/expired/title', visible: false);
+		static_text( width: kStringTitleWidth, view_id: kZID_Act_LoadTrialASRFailed_Title, name:'$$$/alm/dlg/activation/trial/asrload/failed/title', visible:false);
+		static_text( width: kStringTitleWidth, view_id:kZID_Act_Upgrade_Check_Title, name: '$$$/alm/dlg/activation/upgrade/check/title', visible: false);
+		static_text( width: kStringTitleWidth, view_id:kZID_Act_Upgrade_Check_UnLockKeyCode_Title, name: '$$$/alm/dlg/activation/upgrade/check/unlockkeycode/title', visible: false);
+
+	}	
+	group( view_id: kZID_Act_DialogBlackBorder, width: kDialogWindowWidth, height: kDialogWindowHeight,
+		   placement: place_offscreen, child_vertical: align_fill, child_horizontal: align_fill,
+		   margin_top: 25, 
+		   margin_bottom: 0,
+		   margin_left: 150,
+		   margin_right:0)
+	{		
+
+			group( view_id: kZID_Act_LoadTrialASRFailed_Pane,  child_vertical:align_top, spacing:20, visible: false, enabled : false)
+			{
+				group(child_horizontal: align_left) 
+				{
+					static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/activation/trial/asrload/failed' );
+					static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/activation/trial/asrload/failed/para1/placeholder' );
+				}
+				
+				group (vertical: align_bottom, horizontal: align_fill, placement: place_row)
+				{
+					group(horizontal: align_left, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Act_LoadTrialASRFailed_Btn_Cancel, name: '$$$/alm/dlg/btn/cancel');	
+					}
+					group(horizontal: align_right, placement: place_offscreen, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Act_LoadTrialASRFailed_Btn_Continue, name: '$$$/alm/dlg/btn/continue');
+					}
+				}
+				
+			}	
+					
+			
+			group( view_id: kZID_Act_FirstLaunch_Ser1_Pane, child_vertical: align_center, spacing: 20, visible: false, enabled : false)
+			{
+				group(child_horizontal: align_left) 
+				{
+					static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/activation/first_launch/serialization_1/choice_string', font: font_small_bold );
+					group(spacing: 40)
+					{
+						group(horizontal: align_fill )
+						{
+							radio(width: kStringSubpaneWidth, view_id: kZID_Act_FirstLaunch_Ser1_RadioBtn_Serialize, name: '$$$/alm/dlg/activation/first_launch/serialization_1/radio_btn/serialize', font: font_small_bold );
+							static_text(left_offset:20, width: kStringSubpaneWidth, name: '$$$/alm/dlg/activation/serialization_2/info');
+							group(margin_left: 40, child_horizontal: align_left)
+							{
+								group(placement: place_row, spacing: 10)
+								{
+									static_text(width: kStringSubpane3QtrWidth - 350, name:'$$$/alm/dlg/activation/serialization_2/serial_no', font: font_small_bold);
+									edit_number( view_id: kZID_Act_FirstLaunch_Ser1_EditBox_1stPart, width: 40, max_chars: 4, format: whole );
+									edit_number( view_id: kZID_Act_FirstLaunch_Ser1_EditBox_2ndPart, width: 40, max_chars: 4  );
+									edit_number( view_id: kZID_Act_FirstLaunch_Ser1_EditBox_3rdPart, width: 40, max_chars: 4 );
+									edit_number( view_id: kZID_Act_FirstLaunch_Ser1_EditBox_4thPart, width: 40, max_chars: 4  );
+									edit_number( view_id: kZID_Act_FirstLaunch_Ser1_EditBox_5thPart, width: 40, max_chars: 4 );
+									edit_number( view_id: kZID_Act_FirstLaunch_Ser1_EditBox_6thPart, width: 40, max_chars: 4 );
+									group(placement: place_offscreen)
+									{
+										picture( view_id: kZID_Act_FirstLaunch_Ser1_Picture_Tick,height:16,width:20); 
+										picture( view_id: kZID_Act_FirstLaunch_Ser1_Picture_Cross,height:16,width:20); 
+									}
+								}
+							}
+						}
+					}
+					group(horizontal: align_fill, top_offset: 40 )
+					{
+						radio(width: kStringSubpaneWidth,view_id: kZID_Act_FirstLaunch_Ser1_RadioBtn_Try,  name: '$$$/alm/dlg/activation/serialization_1/radio_btn/try/placeholder' , font: font_small_bold);
+					}
+				}
+				group(vertical: align_bottom, margin_bottom: gap)
+				{
+					group(placement: place_column, spacing: 2)
+					{
+						group (placement: place_offscreen, child_horizontal: align_fill)
+						{
+							myHyperLink( name: '$$$/alm/dlg/shared_string/tryout/link/about_product', create_user_pane: true, enabled: false, win_style:1342177280, visible:false);
+							button(view_id: kZID_Act_FirstLaunch_Ser1_Hyperlink_About, name: '$$$/alm/dlg/shared_string/tryout/link/about_product', visible: false);
+						}
+						group(placement: place_offscreen, child_horizontal: align_fill) 
+						{	
+							myHyperLink(name: '$$$/alm/dlg/shared_string/tryout/link/license_agreement', create_user_pane: true, enabled: false, win_style:1342177280, visible:false);
+							button(view_id: kZID_Act_FirstLaunch_Ser1_Hyperlink_Eula, name: '$$$/alm/dlg/shared_string/tryout/link/license_agreement', visible: false);
+						}
+					}
+				}
+				group (vertical: align_bottom, horizontal: align_fill, placement: place_row)
+				{
+
+					group(horizontal: align_left, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Act_FirstLaunch_Ser1_Btn_Cancel, name: '$$$/alm/dlg/btn/quit');	
+					}
+					group(horizontal: align_right, placement: place_offscreen, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Act_FirstLaunch_Ser1_Btn_Next, name: '$$$/alm/dlg/btn/next');
+					}
+				}
+			}
+			group( view_id: kZID_Act_SecondLaunch_Ser1_Grace_Pane, spacing: 20, child_vertical: align_top, visible: false, enabled : false)
+			{
+				static_text( view_id:kZID_Act_SecondLaunch_Ser1_Para1 ,width: kStringSubpaneWidth+30, name: '$$$/alm/dlg/activation/second_launch/serialization_1/grace/info/placeholder', font:font_big_bold );
+				group(spacing:40)
+				{
+					myTrialMeter(create_user_pane: true, enabled: false,  view_id: kZID_Act_SecondLaunch_Ser1_Grace_TrialMeter, height: kALMTrialMeterHeight, width: kALMTrialMeterWidth, left_offset: kTrailMeterLeftOffset);
+					group(child_horizontal: align_left)
+					{
+						group(horizontal: align_fill )
+						{
+							radio(width: kStringSubpaneWidth, view_id: kZID_Act_SecondLaunch_Ser1_Grace_RadioBtn_Serialize, name: '$$$/alm/dlg/activation/second_launch/serialization_1/grace/radio_btn/serialize/placeholder', font: font_small_bold );
+							static_text(left_offset:20, width: kStringSubpaneWidth-20, name: '$$$/alm/dlg/activation/serialization_2/info');
+							group(margin_left: 40, child_horizontal: align_left)
+							{
+								group(placement: place_row, spacing: 10)
+								{
+									static_text(width: kStringSubpane3QtrWidth - 350, name:'$$$/alm/dlg/activation/serialization_2/serial_no', font: font_small_bold);
+									edit_number( view_id: kZID_Act_SecondLaunch_Ser1_EditBox_1stPart, width: 40, max_chars: 4, format: whole );
+									edit_number( view_id: kZID_Act_SecondLaunch_Ser1_EditBox_2ndPart, width: 40, max_chars: 4  );
+									edit_number( view_id: kZID_Act_SecondLaunch_Ser1_EditBox_3rdPart, width: 40, max_chars: 4 );
+									edit_number( view_id: kZID_Act_SecondLaunch_Ser1_EditBox_4thPart, width: 40, max_chars: 4  );
+									edit_number( view_id: kZID_Act_SecondLaunch_Ser1_EditBox_5thPart, width: 40, max_chars: 4 );
+									edit_number( view_id: kZID_Act_SecondLaunch_Ser1_EditBox_6thPart, width: 40, max_chars: 4 );
+									group(placement: place_offscreen)
+									{
+										picture( view_id: kZID_Act_SecondLaunch_Ser1_Picture_Tick,height:16,width:20);
+										picture( view_id: kZID_Act_SecondLaunch_Ser1_Picture_Cross,height:16,width:20);
+									}
+								}
+							}
+						}
+					}
+				}
+				group(child_horizontal: align_left, spacing:90)
+				{
+					group(horizontal: align_fill )
+					{
+						radio( width: kStringSubpaneWidth, view_id: kZID_Act_SecondLaunch_Ser1_Grace_RadioBtn_ContinueTrial, name: '$$$/alm/dlg/activation/second_launch/serialization_1/grace/radio_btn/continue_trial/placeholder' , font: font_small_bold);
+					}
+					group(placement:place_row,child_vertical: align_top, child_horizontal: align_left, spacing: 2)
+					{
+						picture(horizontal:align_center,vertical:align_center, view_id: kZID_Act_SecondLaunch_Ser1_Grace_Pict1 , height:16, width:20);
+						group (placement: place_offscreen, child_horizontal: align_fill)
+						{	
+							myHyperLink(name: '$$$/alm/dlg/activation/second_launch/serialization_1/grace/buy_link', create_user_pane: true, win_style:1342177280, enabled: false, visible:false);
+							button(view_id: kZID_Act_SecondLaunch_Ser1_Grace_Hyperlink_Buy , name: '$$$/alm/dlg/activation/second_launch/serialization_1/grace/buy_link', visible: false);
+						}
+					}
+				}
+				group(vertical: align_bottom, margin_bottom: gap)
+				{
+					group(placement: place_column, spacing: 2)
+					{
+						group (placement: place_offscreen, child_horizontal: align_fill)
+						{
+							myHyperLink( name: '$$$/alm/dlg/shared_string/tryout/link/about_product', create_user_pane: true, enabled: false, win_style:1342177280, visible:false);
+							button(view_id: kZID_Act_SecondLaunch_Ser1_Grace_Hyperlink_About, name: '$$$/alm/dlg/shared_string/tryout/link/about_product', visible: false);
+						}
+						group(placement: place_offscreen, child_horizontal: align_fill) 
+						{	
+							myHyperLink(name: '$$$/alm/dlg/shared_string/tryout/link/license_agreement', create_user_pane: true, enabled: false, win_style:1342177280, visible:false);
+							button(view_id: kZID_Act_SecondLaunch_Ser1_Grace_Hyperlink_Eula, name: '$$$/alm/dlg/shared_string/tryout/link/license_agreement', visible: false);
+						}
+					}
+				}
+				group (vertical: align_bottom, horizontal: align_fill, placement: place_row)
+				{
+					group(horizontal: align_left, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Act_SecondLaunch_Ser1_Grace_Btn_Cancel, name: '$$$/alm/dlg/btn/cancel');	
+					}
+					group(horizontal: align_right, placement: place_offscreen, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Act_SecondLaunch_Ser1_Grace_Btn_Next, name: '$$$/alm/dlg/btn/next');
+					}
+				}
+			}	
+			group( view_id: kZID_Act_SecondLaunch_Ser1_Expired_Pane, spacing: 20, child_vertical: align_top, visible: false, enabled : false)
+			{
+				static_text( view_id:kZID_Act_SecondLaunch_Ser1_Expired_Para1 , width: kStringSubpaneWidth+30, name: '$$$/alm/dlg/activation/second_launch/serialization_1/expired/info', font:font_big_bold );
+				
+				group(spacing:40)
+				{
+					myTrialMeter(create_user_pane: true, enabled: false,  view_id: kZID_Act_SecondLaunch_Ser1_Expired_TrialMeter, height: kALMTrialMeterHeight, width: kALMTrialMeterWidth, left_offset: kTrailMeterLeftOffset);
+					group(child_horizontal: align_left)
+					{
+						group(horizontal: align_fill )
+						{
+							radio( width: kStringSubpaneWidth, view_id: kZID_Act_SecondLaunch_Ser1_Expired_RadioBtn_Serialize, name: '$$$/alm/dlg/activation/second_launch/serialization_1/grace/radio_btn/serialize/placeholder' , font: font_small_bold);
+							static_text( left_offset:20,width: kStringSubpaneWidth, name: '$$$/alm/dlg/activation/serialization_2/info');
+							group(margin_left: 40, child_horizontal: align_left)
+							{
+								group(placement: place_row, spacing: 10)
+								{
+									static_text(width: kStringSubpane3QtrWidth - 350, name:'$$$/alm/dlg/activation/serialization_2/serial_no', font: font_small_bold);
+									edit_number( view_id: kZID_Act_SecondLaunch_Ser1_Expired_EditBox_1stPart, width: 40, max_chars: 4, format: whole );
+									edit_number( view_id: kZID_Act_SecondLaunch_Ser1_Expired_EditBox_2ndPart, width: 40, max_chars: 4  );
+									edit_number( view_id: kZID_Act_SecondLaunch_Ser1_Expired_EditBox_3rdPart, width: 40, max_chars: 4 );
+									edit_number( view_id: kZID_Act_SecondLaunch_Ser1_Expired_EditBox_4thPart, width: 40, max_chars: 4  );
+									edit_number( view_id: kZID_Act_SecondLaunch_Ser1_Expired_EditBox_5thPart, width: 40, max_chars: 4 );
+									edit_number( view_id: kZID_Act_SecondLaunch_Ser1_Expired_EditBox_6thPart, width: 40, max_chars: 4 );
+									placement(placement: place_offscreen)
+									{
+										picture( view_id: kZID_Act_SecondLaunch_Ser1_Expired_Picture_Tick,height:16,width:20);
+										picture( view_id: kZID_Act_SecondLaunch_Ser1_Expired_Picture_Cross,height:16,width:20); 
+									}
+								}
+							}
+						}
+					}
+				}
+				group(child_horizontal: align_left, spacing:90)
+				{
+					group(child_horizontal: align_left)
+					{
+						group(horizontal: align_fill )
+						{
+							radio( width: kStringSubpaneWidth, view_id: kZID_Act_SecondLaunch_Ser1_Expired_RadioBtn_Quit, name: '$$$/alm/dlg/activation/second_launch/serialization_1/grace/radio_btn/continue_trial/placeholder' , font: font_small_bold);
+						}
+					}
+					group(placement:place_row,child_vertical: align_top, child_horizontal: align_left, spacing: 2)
+					{
+						picture(horizontal:align_center,vertical:align_center, view_id: kZID_Act_SecondLaunch_Ser1_Expired_Pict1 , height:16, width:20);
+						group (placement: place_offscreen, child_horizontal: align_fill)
+						{	
+							myHyperLink(name: '$$$/alm/dlg/activation/second_launch/serialization_1/expired/buy_link', create_user_pane: true, win_style:1342177280, enabled: false, visible:false);
+							button(view_id: kZID_Act_SecondLaunch_Ser1_Expired_Hyperlink_Buy , name: '$$$/alm/dlg/activation/second_launch/serialization_1/expired/buy_link', visible: false);
+						}
+					}
+				}
+				group(vertical: align_bottom, margin_bottom: gap)
+				{
+					group(placement: place_column, spacing: 2)
+					{
+						group (placement: place_offscreen, child_horizontal: align_fill)
+						{
+							myHyperLink( name: '$$$/alm/dlg/shared_string/tryout/link/about_product', create_user_pane: true, enabled: false, win_style:1342177280, visible:false);
+							button(view_id: kZID_Act_SecondLaunch_Ser1_Expired_Hyperlink_About, name: '$$$/alm/dlg/shared_string/tryout/link/about_product', visible: false);
+						}
+					 
+						group(placement: place_offscreen, child_horizontal: align_fill) 
+						{	
+							myHyperLink(name: '$$$/alm/dlg/shared_string/tryout/link/license_agreement', create_user_pane: true, enabled: false, win_style:1342177280, visible:false);
+							button(view_id: kZID_Act_SecondLaunch_Ser1_Expired_Hyperlink_Eula, name: '$$$/alm/dlg/shared_string/tryout/link/license_agreement', visible: false);
+						}
+					}
+				}
+				group (vertical: align_bottom, horizontal: align_fill, placement: place_row)
+				{
+
+					group(horizontal: align_left, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Act_SecondLaunch_Ser1_Expired_Btn_Cancel, name: '$$$/alm/dlg/btn/quit');
+					}	
+					group(horizontal: align_right, placement: place_offscreen, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Act_SecondLaunch_Ser1_Expired_Btn_Next, name: '$$$/alm/dlg/btn/next' );
+					}
+				}
+				
+			}		
+			
+			group( view_id: kZID_Act_Upgrade_Check_Pane, child_vertical: align_top, visible: false, enabled: false)
+			{
+				group()
+				{
+					group(placement: place_column)
+					{
+						static_text( width: kStringSubpaneWidth, name: '$$$/alm/activation/upgrade/check/para1');
+						static_text( width: kStringSubpaneWidth, name: '$$$/alm/activation/upgrade/check/para2');
+						static_text( width: kStringSubpaneWidth, name: '$$$/alm/activation/upgrade/check/para3', font : font_small_bold);
+					}
+				}
+				group(spacing: 30)
+				{
+					group(placement: place_column,margin_left: kBottomButtonMarginLeft)
+					{
+						static_text(  name: '$$$/alm/activation/upgrade/check/popup_info');
+						popup( view_id: kZID_Act_Upgrade_Check_Popup_Box, width: kStringSubpaneWidth - 100, items: '$$$/alm/dlg/activation/upgrade/check/popup_items' );
+					}
+					group(placement: place_column, spacing: 5,margin_left: kBottomButtonMarginLeft)
+					{
+						static_text( name: '$$$/alm/activation/upgrade/check/serial_number');
+						group(placement: place_row)
+						{
+							edit_text( view_id: kZID_Act_Upgrade_Check_Serial_Number, width: kStringSubpaneWidth - 230);
+							group(placement: place_offscreen)
+							{
+								picture(view_id:kZID_Act_Upgarde_Check_Picture_Tick1, width: 20, height: 16);
+								picture(view_id:kZID_Act_Upgarde_Check_Picture_Cross1, width: 20, height: 16);
+			
+							}
+						}
+					}
+				}
+				group(spacing: 30)
+				{
+					group(placement: place_column,margin_left: kBottomButtonMarginLeft)
+					{
+						static_text( view_id: kZID_Act_Upgrade_Check_Popup_Label_Box1, name: '$$$/alm/activation/upgrade/check/popup_info1');
+						popup( view_id: kZID_Act_Upgrade_Check_Popup_Box1, width: kStringSubpaneWidth - 100, items: '$$$/alm/dlg/activation/upgrade/check/popup_items' );
+					}
+					group(placement: place_column, spacing: 5,margin_left: kBottomButtonMarginLeft)
+					{
+						static_text( view_id: kZID_Act_Upgrade_Check_Serial_Label_Number1, name: '$$$/alm/activation/upgrade/check/serial_number1');
+						group(placement: place_row)
+						{
+							edit_text( view_id: kZID_Act_Upgrade_Check_Serial_Number1, width: kStringSubpaneWidth - 230);
+							group(placement: place_offscreen)
+							{
+								picture(view_id:kZID_Act_Upgarde_Check_Picture_Tick2, width: 20, height: 16);
+								picture(view_id:kZID_Act_Upgarde_Check_Picture_Cross2, width: 20, height: 16);	
+							}
+						}
+					}
+				}
+				group(vertical: align_bottom, margin_bottom: gap + 5) 
+				{
+					group(placement: place_column, spacing: 2)
+					{
+						static_text( name: '$$$/alm/activation/upgrade/check/note');
+						static_text( name: '$$$/alm/activation/upgrade/check/note/info',width: kStringSubpaneWidth);
+						
+					}
+				}
+				group (vertical: align_bottom, horizontal: align_fill, placement: place_row)
+				{
+					group(horizontal: align_left,placement: place_row, margin_bottom: kBottomButtonMarginBottom)
+					{
+						
+						button(view_id: kZID_Act_Upgrade_Check_btn_Cancel, name: '$$$/alm/dlg/btn/cancel');
+						
+					}
+					group(horizontal: align_right, placement: place_row, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Act_Upgrade_Check_Btn_Quit ,   name: '$$$/alm/dlg/btn/back');
+						button(view_id: kZID_Act_Upgrade_Check_Btn_Later ,   name: '$$$/alm/dlg/btn/update_later');						
+						button(view_id: kZID_Act_Upgrade_Check_Btn_Ok ,   name: '$$$/alm/dlg/btn/next');
+												
+					}
+				}
+				
+			}
+
+			
+			group(view_id: kZID_Act_Upgrade_Check_UnLockKeyCode_Pane, child_vertical: align_top, visible: false, enabled : false)
+			{
+				
+				group(spacing:20)
+				{	
+					static_text( view_id: kZID_Act_Upgrade_Check_UnLockKeyCode_TextStepOne, width: kStringSubpaneWidth, name: '$$$/alm/dlg/unityplus/buy_online/step', font: font_big_bold, font_size: kTitleFontSize, font_color :'{165,173,182}');				
+					static_text(width: kStringSubpaneWidth , name:'$$$/alm/activation/upgrade/check/unlockkeycode/step1');
+					group(placement:place_row, margin_left:kBottomButtonMarginLeft+50)
+					{
+					static_text(name:'$$$/alm/activtaion/upgrade/check/challenge_code', font:font_small_bold);
+					static_text( view_id: kZID_Act_Upgrade_Check_UnLockKeyCode_Code, name: '$$$/alm/activation/upgrade/check/unlockkeycode/code');
+					}
+					
+					static_text( view_id: kZID_Act_Upgrade_Check_UnLockKeyCode_TextStepTwo, width: kStringSubpaneWidth, name: '$$$/alm/dlg/unityplus/activate/step', font: font_big_bold, font_size: kTitleFontSize, font_color :'{165,173,182}');				
+					static_text(width: kStringSubpaneWidth , name:'$$$/alm/activation/upgrade/check/unlockkeycode/step2');
+					group(placement:place_row, margin_left:kBottomButtonMarginLeft+50)
+					{
+						static_text(width: kStringQtrWidth,  name: '$$$/alm/activation/upgrade/check/unlockkeycode/unlockingkey/text',font:font_small_bold);
+						edit_text( view_id: kZID_Act_Upgrade_Check_UnLockKeyCode_Key, v_scroller: false,  width: kStringSubpaneWidth-300);
+						group(placement:place_offscreen)
+						{
+							picture(view_id:kZID_Act_Upgrade_Check_UnLockKeyCode_Picture_Tick ,width: 20, height: 16);
+							picture(view_id:kZID_Act_Upgrade_Check_UnLockKeyCode_Picture_Cross ,width: 20, height: 16);
+						}
+						
+					}		
+				}				
+				group (vertical: align_bottom, horizontal: align_fill, placement: place_row)
+				{
+					group(horizontal: align_left,placement: place_row, margin_bottom: kBottomButtonMarginBottom)
+					{
+						
+						button(view_id: kZID_Act_Upgrade_Check_UnLockKeyCode_btn_Cancel, name: '$$$/alm/dlg/btn/cancel');
+						
+					}
+					group(horizontal: align_right, placement: place_row, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+					{
+						
+						button(view_id: kZID_Act_Upgrade_Check_UnLockKeyCode_btn_Ok, name: '$$$/alm/dlg/btn/next');	
+												
+					}
+				}
+			}
+	}
+}

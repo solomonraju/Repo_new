@@ -1,0 +1,20 @@
+; Format: PostScript name=Windows name/code
+; Code: B=bold font, I=italic font, D=use this mapping only if a system font is not found
+
+; Create default mappings for the Standard Apple Laserwriter fonts
+Times-Roman=Times New Roman/D
+Times-Italic=Times New Roman/ID
+Times-Bold=Times New Roman/BD
+Times-BoldItalic=Times New Roman/BID
+
+Helvetica=Arial/D
+Helvetica-Oblique=Arial/ID
+Helvetica-Bold=Arial/BD
+Helvetica-BoldOblique=Arial/BID
+
+Courier=Courier/D
+Courier-Oblique=Courier/ID
+Courier-Bold=Courier/BD
+Courier-BoldOblique=Courier/BID
+
+; Enter custom font mappings here

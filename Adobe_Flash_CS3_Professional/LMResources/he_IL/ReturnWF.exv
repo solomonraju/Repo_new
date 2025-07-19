@@ -1,0 +1,665 @@
+
+kZID_Ret_DialogBlackBorder				= 1500;
+
+kZID_Ret_Transfer_Title					= 1600;
+kZID_Ret_Transfer_Pane					= 1601;
+kZID_Ret_Transfer_Hyperlink_Eula		= 1602;
+kZID_Ret_Transfer_Hyperlink_MoreInfo	= 1603;
+kZID_Ret_Transfer_Btn_Start				= 1604;
+kZID_Ret_Transfer_Btn_CustomerService	= 1605;
+kZID_Ret_Transfer_Btn_Cancel			= 1606;
+kZID_Ret_Transfer_HyperLink_CustomerService = 1608;
+kZID_Ret_Transfer_RedText_Warning			= 1609;
+
+kZID_Ret_InProgress_Title				= 1700;
+kZID_Ret_InProgress_Pane				= 1701;
+kZID_Ret_InProgress_ProgressBar			= 1702;
+kZID_Ret_InProgress_Text_ElapsedTime	= 1703;
+kZID_Ret_InProgress_Btn_Next				= 1704;
+kZID_Ret_InProgress_Pict1					= 1705;
+kZID_Ret_InProgress_Label_Before				= 1706;
+kZID_Ret_InProgress_Label_After					= 1707;
+kZID_Ret_InProgress_Thanks					= 1708;
+
+
+
+
+kZID_Ret_Succeeed_Title 				= 1800;
+kZID_Ret_Succeeed_Pane 					= 1801;
+kZID_Ret_Succeeed_Btn_Done				= 1803;
+kZID_Ret_Succeeed_Btn_Continue_Uninstall	= 1804;
+
+kZID_Ret_Denied_Title						= 2000;
+kZID_Ret_Denied_Pane						= 2001;
+kZID_Ret_Denied_Text_DeniedErrorMsg			= 2002;
+kZID_Ret_Denied_Btn_CustomerService			= 2003;
+kZID_Ret_Denied_Btn_Close					= 2004;
+kZID_Ret_Denied_HyperLink_CustomerService   = 2006;
+
+kZID_Ret_ServerUnavailable_Title				= 2100;
+kZID_Ret_ServerUnavailable_Pane 				= 2101;
+kZID_Ret_ServerUnavailable_Text_ErrorMsg		= 2102;
+kZID_Ret_ServerUnavailable_Btn_CustomerService 	= 2103;
+kZID_Ret_ServerUnavailable_Btn_Retry			= 2104;
+kZID_Ret_ServerUnavailable_Btn_Cancel			= 2105;
+kZID_Ret_ServerUnavailable_HyperLink_CustomerService = 2107;
+
+kZID_Ret_LicenseCorrupt_Title					= 2200;
+kZID_Ret_LicenseCorrupt_Pane					= 2201;
+kZID_Ret_LicenseCorrupt_Text_ErrorMsg			= 2202;
+kZID_Ret_LicenseCorrupt_Btn_CustomerService		= 2203;
+kZID_Ret_LicenseCorrupt_Btn_Close				= 2204;
+kZID_Ret_LicenseCorrupt_HyperLink_CustomerService = 2206;
+
+kZID_Ret_NoInternetConnection_Title					= 2300;
+kZID_Ret_NoInternetConnection_Pane					= 2301;
+kZID_Ret_NoInternetConnection_RadioBtn_Retry		= 2302;
+kZID_Ret_NoInternetConnection_RadioBtn_Adjust		= 2303;
+kZID_Ret_NoInternetConnection_Btn_CustomerService	= 2304;
+kZID_Ret_NoInternetConnection_Btn_Okay				= 2307;
+kZID_Ret_NoInternetConnection_Btn_Cancel			= 2308;
+
+
+kZID_Ret_PrivacyInfo_Title					= 2400;
+kZID_Ret_PrivacyInfo_Pane					= 2401;
+kZID_Ret_PrivacyInfo_Popup_Language			= 2402;
+kZID_Ret_PrivacyInfo_EditText_Privacy		= 2403;
+kZID_Ret_PrivacyInfo_Btn_Back				= 2404;
+kZID_Ret_PrivacyInfo_Btn_Cancel				= 2405;
+
+kZID_Ret_StartUninstallTransfer_title		= 2500;
+kZID_Ret_StartUninstallTransfer_Pane		= 2501;
+kZID_Ret_StartUninstallTransfer_btn_Skip	= 2502;
+kZID_Ret_StartUninstallTransfer_btn_Back	= 2503;
+kZID_Ret_StartUninstallTransfer_btn_Start	= 2504;
+kZID_Ret_StartUninstallTransfer_btn_Cancel	= 2505;
+kZID_Ret_StartUninstallTransfer_HyperLink_CustomerService = 2507;
+kZID_Ret_StartUninstallTransfer_RedText_Warning			= 2508;
+
+kZID_Proxy_Settings_Title					= 9600;
+kZID_Proxy_Settings_Pane					= 9601;
+kZID_UserProxyCheckBox						= 9602;
+kZID_RequireAuthenticationCheckBox			= 9603;
+kZID_ProxySettingsServerAddress				= 9604;
+kZID_ProxySettingsServerPort				= 9605;
+kZID_ProxySettingsUsername					= 9606;
+kZID_ProxySettingsPassword					= 9607;	
+kZID_ProxySettings_Btn_Cancel				= 9608;
+kZID_ProxySettings_Btn_Back					= 9609;
+kZID_ProxySettings_Btn_Retry				= 9610;
+
+
+kZID_Ret_SSL_Error_Pane 				= 3001;
+kZID_Ret_SSL_Error_Customer_Ser_Link			= 3002;
+kZID_Ret_SSL_Error_Btn_Retry				= 3003;
+kZID_Ret_SSL_Error_Btn_Quit				= 3004;
+
+
+kZID_Serial_Return_Transfer_Title			= 4000;
+kZID_Serial_Return_Transfer_Pane			= 4001;
+kZID_Serial_Return_Transfer_Btn_Start			= 4002;
+kZID_Serial_Return_Transfer_CheckBox_Option		= 4003;
+kZID_Serial_Return_Transfer_Btn_Cancel			= 4004;
+kZID_Serial_Return_Transfer_RedText_Warning	        = 4007;
+kZID_Serial_Return_Transfer_BoundingBox			= 4008;
+
+kZID_Def_Dummy_Btn		= 1000;
+
+
+kMovableModalWindowClass      = 4;
+
+lineSpace	 				= 3;
+gap		     				= 10;
+
+kDialogWindowWidth 			= 669+90;
+kDialogWindowHeight 		= 538-28;
+
+kStringTitleWidth			= 500;
+kStringSubpaneWidth 		= 460;
+kStringSubpane3QtrWidth		= 350;
+
+kSmallIconWidth				= 32;
+kSmallIconHeight			= 32;
+kClusterBoxWidth			= kStringSubpaneWidth-40;
+kRedColor					= '{65535, 0, 0}';
+kBlueColor					= '{0, 0, 65535}';
+kBottomButtonMarginLeft		= 8;
+kBottomButtonMarginBottom	= 8;
+kHyperlinkOffset			= 8;
+kAlertClusterMarginWidth	= gMediumSpace;
+
+kSeparatorWidth				= 510;
+kLongButtonWidth			= 160;
+kButtonHeight				= 17;
+
+kPhoneNumberTextWidth		= 275;
+
+
+dialog( type: kMovableModalWindowClass, win_ex_style:4194304, close_box: true, name: '$$$/alm/common/window_title')
+{
+	font = font_small;
+
+	group(placement: place_offscreen, margin_left: 137)
+	{
+		font = font_big_bold;
+		font_size = 14;
+		
+		static_text( width: kStringTitleWidth, view_id: kZID_Serial_Return_Transfer_Title, name: '$$$/alm/dlg/transfer/serial_return/title', visible: false );
+		static_text( width: kStringTitleWidth, view_id: kZID_Ret_StartUninstallTransfer_title, name: '$$$/alm/dlg/transfer/initial_transfer/title', visible: false );		
+		static_text( width: kStringTitleWidth, view_id: kZID_Ret_Transfer_Title, name: '$$$/alm/dlg/transfer/activation_transfer/title', visible: false );
+		static_text( width: kStringTitleWidth, view_id: kZID_Ret_Succeeed_Title, name: '$$$/alm/dlg/transfer/transfer_succeed/title', visible: false );
+		static_text( width: kStringTitleWidth, view_id: kZID_Ret_Denied_Title, name: '$$$/alm/dlg/transfer/transfer_failed/title', visible: false );
+		static_text( width: kStringTitleWidth, view_id: kZID_Ret_InProgress_Title, name: '$$$/alm/dlg/transfer/activation_transferring/title', visible: false );
+		static_text( width: kStringTitleWidth, view_id: kZID_Ret_LicenseCorrupt_Title, name: '$$$/alm/dlg/transfer/license_corrupt/title', visible: false );
+		static_text( width: kStringTitleWidth, view_id: kZID_Ret_ServerUnavailable_Title, name: '$$$/alm/dlg/transfer/server_unavailable/title', visible: false );
+		static_text( width: kStringTitleWidth, view_id: kZID_Ret_PrivacyInfo_Title, name: '$$$/alm/dlg/shared_dlg/activation_info/title', visible: false );		
+		static_text( width: kStringTitleWidth, view_id: kZID_Ret_NoInternetConnection_Title, name: '$$$/alm/dlg/activation/no_internet_connection/title', visible: false );
+		static_text( width: kStringTitleWidth, view_id: kZID_Proxy_Settings_Title,   name: '$$$/alm/dlg/transfer/proxy/settings/title', visible: false);
+
+	}
+	group( view_id: kZID_Ret_DialogBlackBorder, width: kDialogWindowWidth, height: kDialogWindowHeight,
+		   placement: place_offscreen, child_vertical: align_fill, child_horizontal: align_fill,
+		   margin_top: 25, 
+		   margin_bottom: 0,
+		   margin_left: 150,
+		   margin_right:0) 
+	{			
+		 
+
+			group( view_id: kZID_Serial_Return_Transfer_Pane, child_vertical: align_top, visible: false, enabled : false)
+			{
+				group(placement: place_offscreen)
+
+				{
+					myBoundingBox(create_user_pane: true, view_id: kZID_Serial_Return_Transfer_BoundingBox,child_horizontal: align_left);
+
+					group(margin_width: 5, child_vertical: align_top){
+						static_text(font: font_small, width: kStringSubpaneWidth-20, height: 5, name: '$$$/alm/warning/save_document', visible: false);
+						group(placement: place_row, vertical: align_center)
+						{
+							icon(width: kSmallIconWidth, height: kSmallIconHeight, builtin_icon: builtin_icon_warning);
+							static_text( view_id : kZID_Serial_Return_Transfer_RedText_Warning, font: font_small_bold, width: kStringSubpaneWidth-20, name: '$$$/alm/warning/save_document');
+						}
+						static_text(font: font_small, width: kStringSubpaneWidth-20, height: 5, name: '$$$/alm/warning/save_document', visible: false);
+					}
+					
+				}
+				group(child_vertical: align_top, spacing: 20)
+				{
+					group(spacing:5)
+					{
+						static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/transfer/serial_return/info/subtitle',font: font_small_bold );
+						
+						static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/transfer/serial_return/info/para1/placeholder');
+						
+						
+					}
+
+					
+				}
+				group(spacing : 20)
+				{
+				
+
+				
+				
+				group(placement: place_row)
+				{
+					check_box(view_id: kZID_Serial_Return_Transfer_CheckBox_Option , name: '$$$/alm/dlg/transfer/serial_return/checkbox/option');
+				}
+				group(margin_left:20){
+					static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/transfer/serial_return/check_box/option/explanation' );				
+					}
+				}
+				
+				
+				group (vertical: align_bottom, horizontal: align_fill, placement: place_row)
+				{
+					group(horizontal: align_left, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Serial_Return_Transfer_Btn_Cancel, name: '$$$/alm/dlg/btn/cancel');
+					}
+					group(horizontal: align_right, placement: place_row, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Serial_Return_Transfer_Btn_Start, name: '$$$/alm/dlg/btn/transfer');
+					}
+				}
+				
+	
+			}
+
+			group( view_id: kZID_Ret_Transfer_Pane, child_vertical: align_top, visible: false, enabled : false)
+			{
+				group(child_vertical: align_top, spacing: 20)
+				{
+					group(spacing:5)
+					{
+						static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/transfer/activation_transfer/info/subtitle',font: font_small_bold );
+						
+						static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/transfer/activation_transfer/info/para1/placeholder');
+						
+						static_text( height: 50, width: kStringSubpaneWidth, name: '$$$/alm/dlg/transfer/activation_transfer/info/inet_required/app');
+						
+					}
+
+					
+				}
+				group()
+				{
+				
+				static_text(width: kStringSubpaneWidth,name:'$$$/alm/dlg/transfer/customer_service/info');
+				
+				group(placement: place_row, child_vertical: align_top, child_horizontal: align_left, spacing: 5)
+						{
+						
+						
+						group (placement: place_offscreen, child_horizontal: align_fill)
+						{
+							myHyperLink(name: '$$$/alm/dlg/unityplus/common/label/customer_service/link', create_user_pane: true, win_style:1342177280, enabled: false, visible:false);
+							button(view_id: kZID_Ret_Transfer_HyperLink_CustomerService, name: '$$$/alm/dlg/unityplus/common/label/customer_service/link', visible: false);
+						}
+						}
+				}
+				group(horizontal: align_fill, vertical: align_bottom, margin_bottom: 20, child_horizontal: align_fill, margin_right: 20)
+				{
+					cluster(vertical: align_top, placement: place_row, margin: kAlertClusterMarginWidth)
+					{
+						icon(width: kSmallIconWidth, height: kSmallIconHeight, builtin_icon: builtin_icon_warning);
+						static_text( view_id : kZID_Ret_Transfer_RedText_Warning, font: font_small_bold, font_color: kRedColor, width: kClusterBoxWidth, name: '$$$/alm/warning/save_document');
+					}
+					static_text(width:kStringSubpaneWidth,name:'$$$/alm/dlg/transfer/activation_transfer/notes');
+				}
+				group (vertical: align_bottom, horizontal: align_fill, placement: place_row)
+				{
+					group(horizontal: align_left, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Ret_Transfer_Btn_Cancel, name: '$$$/alm/dlg/btn/cancel');
+					}
+					group(horizontal: align_right, placement: place_row, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Ret_Transfer_Btn_Start, name: '$$$/alm/dlg/btn/transfer');
+					}
+				}
+				
+	
+			}
+	
+			group( view_id: kZID_Ret_InProgress_Pane, child_vertical: align_top, visible: false, enabled : false)
+			{
+
+				group(placement: place_offscreen)
+				{
+				static_text(view_id: kZID_Ret_InProgress_Label_Before, horizontal:align_left,width: kStringSubpaneWidth, name: '$$$/alm/dlg/transfer/activation_transferring/info/before',visible:false);
+				static_text(view_id: kZID_Ret_InProgress_Label_After, horizontal:align_left,width: kStringSubpaneWidth, height:50, name: '$$$/alm/dlg/transfer/activation_transferring/info/after',visible:false);
+				}
+
+				group(horizontal: align_center, vertical: align_top, top_offset: 25)
+				{
+					
+					static_text( horizontal: align_center, name: '$$$/alm/dlg/transfer/activation_transferring/label_transferring', visible: false);
+					
+				}
+
+				group(horizontal: align_center, vertical: align_top, top_offset: 90)
+				{
+					group(placement: place_column, horizontal: align_center)
+					{
+					group(placement: place_row, horizontal: align_center)
+					{
+						progress_bar( view_id: kZID_Ret_InProgress_ProgressBar, width: 300, min_value: 0, max_value: 100  );
+						picture( view_id: kZID_Ret_InProgress_Pict1,height:16,width:20);
+						
+						
+					}
+						
+						group( horizontal: align_center, view_id: kZID_Ret_InProgress_Thanks, visible: false)
+						{	 
+						static_text(horizontal: align_center, vertical: align_center, width: kStringSubpane3QtrWidth - 150, name: '$$$/alm/dlg/transferring/internet_activation/thanks', font: font_small_bold);
+						}
+					}
+						
+						
+					
+				}
+
+
+				group (vertical: align_bottom, horizontal: align_right, placement: place_row, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+				{
+					button(view_id: kZID_Ret_InProgress_Btn_Next, name: '$$$/alm/dlg/btn/exit', visible: false);	
+				}
+	
+			}
+
+			group( view_id: kZID_Ret_Succeeed_Pane, child_vertical: align_top, visible: false, enabled : false)
+			{
+				static_text( width: kStringSubpaneWidth, height:50, name: '$$$/alm/dlg/transfer/transfer_succeed/info' );
+				group (vertical: align_bottom, horizontal: align_right, placement: place_offscreen, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+				{
+					button(view_id: kZID_Ret_Succeeed_Btn_Done, name: '$$$/alm/dlg/btn/ok', visible: false);
+					button(view_id: kZID_Ret_Succeeed_Btn_Continue_Uninstall, name: '$$$/alm/dlg/btn/continue_uninstall', visible: false);
+				}
+			}
+
+			group( view_id: kZID_Ret_Denied_Pane, child_vertical: align_top, visible: false, enabled : false)
+			{
+				group(spacing: 16)
+				{
+					static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/transfer/transfer_failed/info/failed' );
+					static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/transfer/transfer_failed/info/customer_service' );
+				}
+				group(placement: place_row, child_vertical: align_top, child_horizontal: align_left, spacing: 5)
+						{
+						
+						
+						group (placement: place_offscreen, child_horizontal: align_fill)
+						{
+							myHyperLink(name: '$$$/alm/dlg/unityplus/common/label/customer_service/link', create_user_pane: true, win_style:1342177280, enabled: false, visible:false);
+							button(view_id: kZID_Ret_Denied_HyperLink_CustomerService, name: '$$$/alm/dlg/unityplus/common/label/customer_service/link', visible: false);
+						}
+						}
+				group(vertical: align_bottom, margin_bottom: 16) 
+				{
+					static_text( width: kStringSubpaneWidth, view_id: kZID_Ret_Denied_Text_DeniedErrorMsg, name: '$$$/alm/error/error_code_msg');
+				}
+				group (vertical: align_bottom, horizontal: align_fill, placement: place_row)
+				{
+					
+					group(horizontal: align_right, placement: place_row, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Ret_Denied_Btn_Close, name: '$$$/alm/dlg/btn/close');
+					}
+				}
+			}
+			
+			group( view_id: kZID_Ret_LicenseCorrupt_Pane, child_vertical: align_top, visible: false, enabled : false)
+			{
+				group(child_vertical: align_top)
+				{
+					static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/transfer/license_corrupt/info/error' );
+					static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/shared_string/customer_service' );
+				}
+				group(placement: place_row, child_vertical: align_top, child_horizontal: align_left, spacing: 5)
+						{
+						
+						
+						group (placement: place_offscreen, child_horizontal: align_fill)
+						{
+							myHyperLink(name: '$$$/alm/dlg/unityplus/common/label/customer_service/link', create_user_pane: true, win_style:1342177280, enabled: false, visible:false);
+							button(view_id: kZID_Ret_LicenseCorrupt_HyperLink_CustomerService, name: '$$$/alm/dlg/unityplus/common/label/customer_service/link', visible: false);
+						}
+						}
+				
+				group(vertical: align_bottom, margin_bottom: 16) 
+				{
+					static_text( width: kStringSubpaneWidth, view_id: kZID_Ret_LicenseCorrupt_Text_ErrorMsg, name: '$$$/alm/error/error_code_msg');
+				}
+				group (vertical: align_bottom, horizontal: align_fill, placement: place_row)
+				{
+					
+					group(horizontal: align_right, placement: place_row, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Ret_LicenseCorrupt_Btn_Close, name: '$$$/alm/dlg/btn/close');
+					}
+				}
+			}
+
+			group( view_id: kZID_Ret_ServerUnavailable_Pane, child_vertical: align_top, visible: false, enabled : false)
+			{
+				static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/transfer/server_unavailable/info' );
+				group(margin_width: 20, margin_height: 10)
+				{
+					group(placement: place_row, child_vertical: align_top, child_horizontal: align_left, spacing: 2)
+					{
+						static_text( name: '$$$/alm/dlg/mac/bullet' );
+						static_text( width: kStringSubpaneWidth-50, name: '$$$/alm/dlg/transfer/server_unavailable/detail/retry' );
+					}
+					group(placement: place_row, child_vertical: align_top, child_horizontal: align_left, spacing: 2)
+					{
+						static_text( name: '$$$/alm/dlg/mac/bullet' );
+						static_text( width: kStringSubpaneWidth-50, name: '$$$/alm/dlg/transfer/server_unavailable/detail/cancel' );
+					}
+					group(placement: place_row, child_vertical: align_top, child_horizontal: align_left, spacing: 2)
+					{
+						static_text( name: '$$$/alm/dlg/mac/bullet' );
+						static_text( width: kStringSubpaneWidth-50, name: '$$$/alm/dlg/transfer/server_unavailable/detail/customer_service' );
+					}
+					group(placement: place_row, child_vertical: align_top, child_horizontal: align_left, spacing: 5)
+						{
+						
+						
+						group (placement: place_offscreen, child_horizontal: align_fill)
+						{
+							myHyperLink(name: '$$$/alm/dlg/unityplus/common/label/customer_service/link', create_user_pane: true, win_style:1342177280, enabled: false, visible:false);
+							button(view_id: kZID_Ret_ServerUnavailable_HyperLink_CustomerService, name: '$$$/alm/dlg/unityplus/common/label/customer_service/link', visible: false);
+						}
+						}	
+				}
+				
+				group(vertical: align_bottom, margin_bottom: 16) 
+				{
+					static_text( width: kStringSubpaneWidth, view_id: kZID_Ret_ServerUnavailable_Text_ErrorMsg, name: '$$$/alm/error/error_code_msg');
+				}
+				group (vertical: align_bottom, horizontal: align_fill, placement: place_row)
+				{
+					
+					group (vertical: align_bottom, horizontal: align_fill, placement: place_row)
+					{
+						group(horizontal: align_left,placement: place_row, margin_bottom: kBottomButtonMarginBottom)
+						{
+							button(view_id: kZID_Ret_ServerUnavailable_Btn_Cancel, name: '$$$/alm/dlg/btn/cancel');
+							
+						}
+						group(horizontal: align_right, placement: place_row, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+						{	
+							button(view_id: kZID_Ret_ServerUnavailable_Btn_Retry, name: '$$$/alm/dlg/btn/retry');
+						}
+					}
+				}
+			}
+			
+			group( view_id: kZID_Ret_PrivacyInfo_Pane, visible: false, child_vertical: align_top, spacing: 20, margin_left: 0, margin_bottom: 5, child_horizontal: align_left, enabled : false)
+			{
+				static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/shared_dlg/activation_info/info' );
+
+				group(horizontal: align_fill, vertical: align_fill, child_vertical: align_top)
+				{
+					popup( horizontal:align_left,view_id: kZID_Ret_PrivacyInfo_Popup_Language, width: 256, name: '$$$/alm/dlg/shared_dlg/activation_info/label_language', items: '$$$/alm/dlg/shared_dlg/activation_info/language_pop_items'  );
+
+					group( horizontal: align_fill, vertical: align_fill, spacing: 0, child_horizontal: align_fill, margin_right: 7)
+					{
+						static_text( horizontal:align_left,vertical: align_top, name: '$$$/alm/dlg/shared_dlg/activation_info/label_act_info' );
+						edit_text( view_id: kZID_Ret_PrivacyInfo_EditText_Privacy, vertical: align_fill, v_scroller: true, locked: true);
+					}
+				}	
+				group (vertical: align_bottom, horizontal: align_fill, placement: place_row)
+				{
+					group(horizontal: align_left,placement: place_row, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Ret_PrivacyInfo_Btn_Cancel, name: '$$$/alm/dlg/btn/cancel');
+					}
+				group(horizontal: align_right, placement: place_row, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Ret_PrivacyInfo_Btn_Back, name: '$$$/alm/dlg/btn/back');
+					
+					}
+				}
+			}
+
+			group( view_id: kZID_Ret_StartUninstallTransfer_Pane, child_vertical: align_top, visible: false, enabled : false)
+			{
+				group(child_vertical: align_top, spacing: 20)
+				{
+					group(spacing:5)
+					{
+						static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/transfer/activation_transfer/info/subtitle',font: font_small_bold );
+						static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/transfer/activation_transfer/info/para1/placeholder');
+						static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/transfer/activation_transfer/info/inet_required');
+					}
+
+					
+				}
+				group()
+				{
+				
+				static_text(width: kStringSubpaneWidth,name:'$$$/alm/dlg/transfer/customer_service/info');
+				
+				group(placement: place_row, child_vertical: align_top, child_horizontal: align_left, spacing: 5)
+						{
+						
+						
+						group (placement: place_offscreen, child_horizontal: align_fill)
+						{
+							myHyperLink(name: '$$$/alm/dlg/unityplus/common/label/customer_service/link', create_user_pane: true, win_style:1342177280, enabled: false, visible:false);
+							button(view_id: kZID_Ret_StartUninstallTransfer_HyperLink_CustomerService, name: '$$$/alm/dlg/unityplus/common/label/customer_service/link', visible: false);
+						}
+						}
+				}
+				group(horizontal: align_fill, vertical: align_bottom, margin_bottom: 20, child_horizontal: align_fill, margin_right: 20)
+				{
+					cluster(vertical: align_top, placement: place_row, margin: kAlertClusterMarginWidth)
+					{
+						icon(width: kSmallIconWidth, height: kSmallIconHeight, builtin_icon: builtin_icon_warning);
+						static_text(view_id: kZID_Ret_StartUninstallTransfer_RedText_Warning, font: font_small_bold, font_color: kRedColor, width: kClusterBoxWidth, name: '$$$/alm/warning/save_document');
+					}
+					static_text(width:kStringSubpaneWidth,name:'$$$/alm/dlg/transfer/activation_transfer/notes');
+				}
+				group (vertical: align_bottom, horizontal: align_fill, placement: place_row)
+				{
+					group(horizontal: align_left,placement: place_row, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Ret_StartUninstallTransfer_btn_Cancel, name: '$$$/alm/dlg/btn/cancel');
+						
+						
+					}
+					group(horizontal: align_right, placement: place_row, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Ret_StartUninstallTransfer_btn_Back, name: '$$$/alm/dlg/btn/back');
+						button(view_id: kZID_Ret_StartUninstallTransfer_btn_Skip, name: '$$$/alm/dlg/btn/skip_transfer');	
+						button(view_id: kZID_Ret_StartUninstallTransfer_btn_Start, name: '$$$/alm/dlg/btn/transfer');
+						
+					}
+				}
+			}
+	
+			group( view_id: kZID_Ret_NoInternetConnection_Pane, spacing: 20, child_vertical: align_top, visible: false, enabled: false)
+			{
+				static_text( width: kStringSubpaneWidth+30, name: '$$$/alm/dlg/activation/no_internet_connection/activation/info' );
+				static_text( width: kStringSubpane3QtrWidth, name: '$$$/alm/dlg/activation/no_internet_connection/you_can');
+				group(margin_left: 40, child_horizontal: align_left)
+				{
+					
+					radio( view_id: kZID_Ret_NoInternetConnection_RadioBtn_Retry, name: '$$$/alm/dlg/activation/no_internet_connection/radio_btn/retry_activation' );
+					radio( view_id: kZID_Ret_NoInternetConnection_RadioBtn_Adjust, name: '$$$/alm/dlg/activation/no_internet_connection/radio_btn/proxy_settings' );
+				}
+				static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/activation/no_internet_connection/notes', top_offset: 20);
+
+				
+				group (vertical: align_bottom, horizontal: align_fill, placement: place_row)
+				{
+					group(horizontal: align_left, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Ret_NoInternetConnection_Btn_Cancel, name: '$$$/alm/dlg/btn/cancel');
+					}
+					group(horizontal: align_right, placement: place_row, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Ret_NoInternetConnection_Btn_Okay, name: '$$$/alm/dlg/btn/ok');	
+					}
+				}
+			}
+			
+			group( view_id: kZID_Proxy_Settings_Pane, child_vertical: align_top, visible: false, enabled : false)
+			{
+				static_text( width: kStringSubpaneWidth, name: '$$$/alm/transfer/proxy/settings/config');
+				cluster(width: kStringSubpaneWidth + 40, top_offset:60)
+				{
+					group(left_offset: 25)
+					{
+						group(placement: place_row)
+						{
+							check_box(view_id: kZID_UserProxyCheckBox , name: '$$$/alm/transfer/proxy/settings/use_proxy');
+						}
+					}
+					group(left_offset: 40, spacing: 20)
+					{	
+						group(spacing: 10)
+						{
+							static_text( width: kStringSubpaneWidth-10, name: '$$$/alm/transfer/proxy/settings/para1');
+						
+							group(placement: place_row)
+							{
+								static_text( width: kStringSubpaneWidth - 300, name: '$$$/alm/transfer/proxy/settings/server_address');
+								edit_text(view_id: kZID_ProxySettingsServerAddress, v_scroller: false, width: kStringSubpaneWidth - 300);	
+							}
+						
+							group(placement: place_row)
+							{
+								static_text( width: kStringSubpaneWidth - 300, name: '$$$/alm/transfer/proxy/settings/port_number');
+								edit_text(view_id: kZID_ProxySettingsServerPort, v_scroller: false, width: kStringSubpaneWidth - 300);	
+							}
+						}
+						
+						group(spacing: 10)
+						{
+								group(placement: place_row)
+								{
+									check_box(view_id: kZID_RequireAuthenticationCheckBox , name: '$$$/alm/transfer/proxy/settings/require_authentication');
+								}
+								group(placement: place_row)
+								{
+									static_text( width: kStringSubpaneWidth - 300, name: '$$$/alm/transfer/proxy/settings/username');
+									edit_text(view_id: kZID_ProxySettingsUsername, v_scroller: false, width: kStringSubpaneWidth - 300);	
+								}
+								group(placement: place_row)
+								{
+									static_text( width: kStringSubpaneWidth - 300, name: '$$$/alm/transfer/proxy/settings/password');
+									edit_text(view_id: kZID_ProxySettingsPassword, password: true, v_scroller: false,  width: kStringSubpaneWidth - 300);	
+								}
+							}
+						
+					}		
+				}	 
+				group (vertical: align_bottom, horizontal: align_fill, placement: place_row, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+				{
+					button(view_id: kZID_ProxySettings_Btn_Cancel, horizontal: align_left, name: '$$$/alm/dlg/btn/cancel');	
+					button(view_id: kZID_ProxySettings_Btn_Back, horizontal: align_right, name: '$$$/alm/dlg/btn/back');	
+					button(view_id: kZID_ProxySettings_Btn_Retry , horizontal: align_right, name: '$$$/alm/dlg/btn/retry');
+				}
+			 
+
+			}
+
+			group( view_id: kZID_Ret_SSL_Error_Pane, child_vertical: align_top, visible: false, enabled : false)
+			{
+				static_text( width: kStringSubpaneWidth, horizontal: align_fill, name: '$$$/alm/dlg/transfer/ssl_error/info', font: font_big_bold );
+				
+				group(child_vertical: align_top)
+				{
+					static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/transfer/ssl_error/info/para1' );
+					static_text( width: kStringSubpaneWidth, name: '$$$/alm/dlg/shared_string/customer_service' );
+				}
+				group(placement: place_row, child_vertical: align_top, child_horizontal: align_left, spacing: 5)
+				{
+				
+					
+					group (placement: place_offscreen, child_horizontal: align_fill)
+					{
+						myHyperLink(name: '$$$/alm/dlg/unityplus/common/label/customer_service/link', create_user_pane: true, win_style:1342177280, enabled: false, visible:false);
+						button(view_id: kZID_Ret_SSL_Error_Customer_Ser_Link, name: '$$$/alm/dlg/unityplus/common/label/customer_service/link', visible: false);
+					}
+				}
+				 
+				group (vertical: align_bottom, horizontal: align_fill, placement: place_row)
+				{
+					group(horizontal: align_left, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id:kZID_Ret_SSL_Error_Btn_Quit, name: '$$$/alm/dlg/btn/quit');
+					}
+					group(horizontal: align_right, placement: place_row, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_Ret_SSL_Error_Btn_Retry, name: '$$$/alm/dlg/btn/retry');
+					}
+				}
+			}
+
+	}
+}

@@ -1,0 +1,26 @@
+
+kMovableAlertWindowClass		= 2;
+kDialogWindowWidth				= 460;
+kDialogWindowHeight				= 150;
+
+kAlertTextWidth					= 350;
+kAlertDialogMargin				= 20;
+
+kOkBtnWidgetID  				= 101;
+
+
+dialog(type: kMovableAlertWindowClass, win_ex_style:4194304, width: kDialogWindowWidth, height: kDialogWindowHeight, margin: kAlertDialogMargin, name :'$$$/alm/alert/window_title')
+{
+	group( horizontal: align_center, vertical: align_fill )
+	{
+		group(placement: place_row, vertical: align_top, child_vertical: align_top, spacing: 20 )
+		{
+			icon(builtin_icon: builtin_icon_warning);
+			static_text( width: kAlertTextWidth, name: '$$$/alm/alert/restart/message' );
+		}
+		group(placement: place_row, horizontal: align_center, vertical: align_bottom)
+		{	
+			button( view_id: kOkBtnWidgetID, default: true, name: '$$$/alm/alert/btn/ok' );
+		}
+	}	
+}

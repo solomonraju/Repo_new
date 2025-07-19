@@ -1,0 +1,53 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Registrácia – nenájdené pripojenie k Internetu</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="./../default.css"></link>
+<script language="javascript" src="./../domutils.js"></script>
+<script language="javascript" src="./../wizardcore.js"></script>
+</head>
+
+<body onload="onWizardLoad()" background="./../background.png">
+
+<div id="registration_static_1st_launch_main-title" class="main-title">
+Registrácia
+</div>
+
+<div id="registration_static_1st_launch_sub-title" class="sub-title">
+  <div class="sub-title-with-error-beige-bg">
+	  <table width="485" cellpadding="0" cellspacing="3">
+		<tr>
+<td width="33"><img src="./../warning_icon.png" alt="upozornenie" width="22" height="22"></td>
+<td width="441" class="sub-title-with-warning">Nebolo možné pripojiť sa do Adobe a zaregistrovať váš produkt.</td>
+		</tr>
+  	  </table>
+  </div>	
+</div>
+
+<div id="registration_static_1st_launch_content" class="content">
+    <br><br>
+<span class="content-bold">Ak chcete v registrácii pokračovať, skontrolujte prosím nasledujúce:</span>
+<br><br>
+<li class="list-element">Overte, či ste pripojení k Internetu.</li>
+<li class="list-element">Overte, či máte v nastaveniach webového prehliadača povolený JavaScript.</li>
+<li class="list-element">Kliknite na tlačidlo Registrovať teraz.</li>
+<br><br>
+Ste takmer hotoví. Venujte chvíľku registrácii a využite všetky výhody v nasledujúcich rokoch.
+<br>
+<li class="list-element">Možnosti produktu – sme tu, aby sme vám pomohli začať a ďalej si rozširovať znalosti.</li>
+<li class="list-element">Na stiahnutie a skúšobná verzia – navštívte výmenné stránky alebo využite možnosti testovania softvéru</li>
+<li class="list-element">Centrum zdrojov Adobe – pracujte lepšie pomocou tipov, trikov a výukových lekcií produktov</li>
+<li class="list-element">Adobe Communications – novinky a aktualizácie z Adobe</li>
+<br><br>
+Adobe si neprenajíma, nepredáva ani neprenajíma informácie o užívateľoch iným subjektom. </div>
+<div id="registration_static_1st_launch_rightbutton" class="rightbutton">
+ 	<form name="registration_first_unsuccessful_next_form">
+		<input name="Never Register" type="button" id="Button1" accesskey="n" tabindex="3" title="Neregistrovat nikdy" value="Neregistrovať nikdy" onClick="doRegsDoNotRegister()">
+		<input name="Register Later" type="button" id="registration_static_1st_launch_register_later" accesskey="l" tabindex="2" title="Registrovat později" value="Registrovať neskôr" onClick="doRegsRegisterLater()">    
+		<input name="Register Now" type="button" id="registration_static_1st_launch_register_now" tabindex="1" accesskey="r" title="Registrovat" value=" Registrovať" onClick="doRegsFirstTry()">
+ 	</form>
+</div>
+
+</body>
+</html>

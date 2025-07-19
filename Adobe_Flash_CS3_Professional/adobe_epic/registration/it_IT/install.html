@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Registrazione-Errore di connessione</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="./../default.css"></link>
+	<script language="javascript" src="./../domutils.js"></script>
+    <script language="javascript" src="./../wizardcore.js"></script>
+</head>
+
+<body onload="onWizardLoad()" background="./../background.png">
+
+<div id="registration_static_1st_launch_main-title" class="main-title">
+  	Registrazione - Errore di connessione
+</div>
+
+<div id="registration_static_1st_launch_sub-title" class="sub-title">
+  <div class="sub-title-with-error-beige-bg">
+	  <table width="485" cellpadding="0" cellspacing="3">
+		<tr>
+			<td width="33"><img src="./../warning_icon.png" alt="warning" width="22" height="22"></td>
+			<td width="441" class="sub-title-with-warning">Impossibile connettersi ad Adobe per la registrazione del prodotto.</td>
+		</tr>
+  	  </table>
+  </div>	
+</div>
+
+
+<div id="registration_static_1st_launch_content" class="content">  
+    <p>&nbsp;</p>
+
+    <span class="content-bold">Per continuare con la registrazione, verificate quanto segue:</span> 
+    <ol>
+		<li class="list-element">Accertatevi di essere connessi a Internet.</li>
+		<li class="list-element">Accertatevi che JavaScript sia abilitato nelle impostazioni del browser.</li>
+		<li class="list-element">Fate clic sul pulsante Resgistra ora.</li>
+	</ol>
+    La procedura è quasi terminata.  Dedicate qualche momento alla registrazione e alla valutazione dei vantaggi di cui godrete nei prossimi anni. 	
+	<ul>
+	  	<li class="list-element">Risorse del prodotto – Fornisce un supporto per iniziare a utilizzare il prodotto e ampliare la propria conoscenza</li>
+		<li class="list-element">Download di prodotti e di versioni di prova – Fornisce l'accesso all'area del download di prodotti e dei software in versione di valutazione</li>
+		<li class="list-element">Centro Risorse Adobe – Consente di lavorare al meglio grazie ai suggerimenti, ai trucchi e ai tutorial sul prodotto</li>
+		<li class="list-element">Comunicazioni di Adobe – Fornisce notizie e aggiornamenti da parte di Adobe</li>
+	</ul>
+    Adobe non presta, vende o fornisce le informazioni sui clienti a terzi.  
+
+</div>
+
+
+
+<div id="registration_static_1st_launch_rightbutton" class="rightbutton">
+ 	<form name="registration_first_unsuccessful_next_form">
+		<input name="Never Register" type="button" id="Button1" accesskey="n" tabindex="3" title="Non registrare mai" value="Non registrare mai" onClick="doRegsDoNotRegister()">
+   		<input name="Register Later" type="button" id="registration_static_1st_launch_register_later" accesskey="l" tabindex="2" title="Registra in un secondo momento" value="Registra in un secondo momento" onClick="doRegsRegisterLater()">		
+   		<input name="Register Now" type="button" id="registration_static_1st_launch_register_now" tabindex="1" accesskey="r" title="Registra ora" value="Registra ora" onClick="doRegsFirstTry()">
+ 	</form>
+</div>
+
+</body>
+</html>
+

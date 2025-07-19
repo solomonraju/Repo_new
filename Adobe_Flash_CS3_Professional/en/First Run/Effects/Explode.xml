@@ -1,0 +1,38 @@
+<group name = "Effects">
+
+	<effect name = "Explode" id = "Explode" />
+	<source file = "Explode.jsfl" />
+	<allow types = "button, movie clip, graphic, text, bitmap, shape" />	
+	<properties>
+		<property name="Effect Duration" variable="dur" defaultValue="20" min="1" type="Number" />		
+		<property name="Explode Vertical Direction" variable="verticalDir" list="Up,Down" defaultValue="0" type="Strings" />
+		<property name="Explode Horizontal Direction" variable="horizontalDir" list="Center,Left,Right" defaultValue="0" type="Strings" />
+		<property name="Y Position (End)" variable="y" defaultValue="150" type="Number" />
+		<property name="Explode Spacing" variable="x" defaultValue="100" type="Number" />
+		<property name="Explode Rotate Angle" variable="angle" defaultValue="60" type="Number" />
+		<property name="Alpha Percent" variable="alpha" defaultValue="0" min="0" type="Number" />
+		<property name="Extend Width by" variable="wid" defaultValue="0" type="Number" />
+		<property name="Extend Height by" variable="hei" defaultValue="100" type="Number" />
+		<property name="First" variable="first" defaultValue="1" type="Number" />
+	</properties>
+
+	<!-- buttons="accept, cancel"> -->
+	<dialog id="explode-dialog" title="Explode"> 
+		<flash id="explode_ui" src="explode.swf" width="772" height="456">
+			<property id="dur" />
+			<property id="verticalDir" />
+			<property id="horizontalDir" />
+			<property id="y" />
+			<property id="x" />
+			<property id="angle" />
+			<property id="alpha" />
+			<property id="wid" />
+			<property id="hei" />
+			<property id="first" />
+		</flash>
+	</dialog>
+	
+
+
+</group>
+

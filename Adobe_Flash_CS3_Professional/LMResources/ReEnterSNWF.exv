@@ -1,0 +1,161 @@
+
+kZID_Act_DialogBlackBorder				= 1500;
+
+
+
+kZID_ReEnterSN_ChangeSerialNumber_Title				= 3100;
+kZID_ReEnterSN_ChangeSerialNumber_Pane				= 3101;
+kZID_ReEnterSN_ChangeSerialNumber_EditBox_1stPart		= 3105;
+kZID_ReEnterSN_ChangeSerialNumber_EditBox_2ndPart		= 3106;
+kZID_ReEnterSN_ChangeSerialNumber_EditBox_3rdPart		= 3107;
+kZID_ReEnterSN_ChangeSerialNumber_EditBox_4thPart		= 3108;
+kZID_ReEnterSN_ChangeSerialNumber_EditBox_5thPart		= 3109;
+kZID_ReEnterSN_ChangeSerialNumber_EditBox_6thPart		= 3110;
+kZID_ReEnterSN_ChangeSerialNumber_Btn_Next		= 3111;
+kZID_ReEnterSN_ChangeSerialNumber_Btn_Cancel			= 3112;
+kZID_ReEnterSN_ChangeSerialNumber_Pic_Tick		=	3113;
+kZID_ReEnterSN_ChangeSerialNumber_Pic_Cross		=	3114;
+
+
+
+WS_CHILD = 1073741824;
+WS_TABSTOP = 65536;
+WS_EX_TOPMOST = 8;
+ES_READONLY = 2048;
+
+
+kALMTrialMeterHeight = 33;
+kALMTrialMeterWidth = 400;
+
+lineSpace	 				= 3;
+gap		     				= 10;
+kIndentationOffset			= 12;
+
+kDialogVerticalSpacing		= 5;
+
+kLongButtonWidth			= 160;
+kExtraLongButtonWidth		= kLongButtonWidth+16;
+kShortButtonWidth			= 95;
+kButtonHeight				= 17;
+kButtonSpace				= 10;
+
+kSmallIconWidth				= 32;
+kSmallIconHeight			= 32;
+
+kAlertClusterMarginWidth	= gMediumSpace;
+kAlertTextWidth				= 590 - kAlertClusterMarginWidth - kAlertClusterMarginWidth - kSmallIconWidth - 5;
+
+kMovableModalWindowClass      = 4;
+
+kRedColor					= '{65535, 0, 0}';
+kBlueColor					= '{0, 0, 65535}';
+
+kDialogSmallMarginWidth 	= 15;
+kDialogMediumMarginWidth	= 15;
+kDialogLargeMarginWidth 	= 35;
+
+kDialogSmallMarginTop   	= 16;
+kDialogMediumMarginTop		= 37;
+kDialogLargeMarginTop		= 55;
+
+kDialogSmallMarginBottom	= 18;
+kDialogMediumMarginBottom	= 45;
+kDialogLargeMarginBottom	= 65;
+
+kSeparatorWidth				= 510+100;
+kDialogWindowWidth 			= 669+100;
+kDialogWindowHeight 		= 538-28;
+
+kStringTitleWidth			= 500;
+kStringSubpaneWidth 		= 460+100+25;
+kStringSubpane3QtrWidth		= 350+100;
+
+kStringWidth				= 400+100;
+kStringMaxWidth 			= 460+100;
+kTextBottomMargin			= 10;
+
+kBoundingBoxExtraLength		= 30;
+
+kStringQtrWidth				= 100+100;
+
+kHyperlinkOffset			= 8;
+
+kTrailMeterLeftOffset		= 40+100;
+kBuyButtonMarginRight		= 20;
+kBottomButtonMarginLeft		= 8;
+kBottomButtonMarginBottom	= 8;
+kPhoneNumberTextWidth		= 275;
+kSerialNumberTextWidth		= 300;
+kClusterBoxWidth			= kStringSubpaneWidth-20;
+
+kDaysRemaingFontSize		= 10;
+kPopupBtnWidth 			= kStringQtrWidth+50;
+
+dialog( type: kMovableModalWindowClass, close_box: true, name: '$$$/alm/common/window_title')
+{
+	font = font_small;
+
+	group(placement: place_offscreen, margin_left: 137)
+	{
+		font = font_big_bold;
+		font_size = 14;
+		
+		
+		static_text( width: kStringTitleWidth, view_id: kZID_ReEnterSN_ChangeSerialNumber_Title, name: '$$$/alm/dlg/unityplus/enterserialnum/title', visible: true );
+		
+	}	
+	group( view_id: kZID_Act_DialogBlackBorder, width: kDialogWindowWidth, height: kDialogWindowHeight,
+		   placement: place_offscreen, child_vertical: align_fill, child_horizontal: align_fill,
+		   margin_top: 25, 
+		   margin_bottom: 0,
+		   margin_left: 150,
+		   margin_right:0)
+	{		
+
+			
+			
+
+			group( view_id: kZID_ReEnterSN_ChangeSerialNumber_Pane, child_vertical: align_top, spacing: 20, visible: true, enabled : true)
+			{
+				static_text(width: kStringSubpaneWidth, name: '$$$/alm/dlg/reenter/para1');
+				static_text(width: kStringSubpaneWidth, name: '$$$/alm/dlg/reenter/para2');
+				group(horizontal: align_fill )
+				{
+					
+					group(placement: place_row, spacing: 10, horizontal:align_left)
+					{
+						static_text(name: '$$$/alm/dlg/reenter/enterserialnum/label/serial_number', font:font_small_bold);
+						edit_number( view_id: kZID_ReEnterSN_ChangeSerialNumber_EditBox_1stPart, width: 40, max_chars: 4, format: whole );
+						edit_number( view_id: kZID_ReEnterSN_ChangeSerialNumber_EditBox_2ndPart, width: 40, max_chars: 4  );
+						edit_number( view_id: kZID_ReEnterSN_ChangeSerialNumber_EditBox_3rdPart, width: 40, max_chars: 4 );
+						edit_number( view_id: kZID_ReEnterSN_ChangeSerialNumber_EditBox_4thPart, width: 40, max_chars: 4  );
+						edit_number( view_id: kZID_ReEnterSN_ChangeSerialNumber_EditBox_5thPart, width: 40, max_chars: 4 );
+						edit_number( view_id: kZID_ReEnterSN_ChangeSerialNumber_EditBox_6thPart, width: 40, max_chars: 4 );
+						group(placement: place_offscreen)
+								{
+									picture( view_id: kZID_ReEnterSN_ChangeSerialNumber_Pic_Tick,height:16,width:20); 
+									picture( view_id: kZID_ReEnterSN_ChangeSerialNumber_Pic_Cross,height:16,width:20); 
+								}
+
+					}
+				}
+				
+				 
+				group (vertical: align_bottom, horizontal: align_fill, placement: place_row)
+				{
+					group(horizontal: align_left, margin_bottom: kBottomButtonMarginBottom)
+					{
+						button(view_id: kZID_ReEnterSN_ChangeSerialNumber_Btn_Cancel, name: '$$$/alm/dlg/btn/quit');
+					}
+					group(horizontal: align_right, placement: place_row, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+					{
+	
+						button(view_id: kZID_ReEnterSN_ChangeSerialNumber_Btn_Next, name: '$$$/alm/dlg/btn/next');
+					}
+				}
+				
+			}
+
+		
+	}
+}

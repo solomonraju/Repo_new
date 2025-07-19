@@ -1,0 +1,29 @@
+<group name = "Effects">
+	<effect name = "Blur" id = "Blur" />
+	<source file = "Blur.jsfl" />
+	<allow types = "all" />
+
+	<properties>
+		<property name="Effect Duration" variable="dur" min="1" defaultValue="16" type="Number" />
+		<property name="Allow Horizontal Blur" variable="hor" defaultValue="True" type="Boolean" />
+		<property name="Allow Vertical Blur" variable="vert" defaultValue="True" type="Boolean" />
+		<property name="Direction of Blur" variable="regPoint" list="From Center,Left,Right,Up,Down,Bottom Right,Bottom Left,Top Right,Top Left" defaultValue="0" type="Strings" />
+		<property name="Number of Steps" variable="blur_amount" defaultValue="15" type="Number" />
+		<property name="Starting Scale" variable="baseScale" defaultValue=".25" type="Double" />
+		<property name="First" variable="first" defaultValue="1" type="Number" />
+	</properties>
+
+	<dialog id="blur-dialog" title="Blur"> 
+		<flash id="blur_ui" src="blur.swf" width="772" height="456">
+			<property id="first" />
+			<property id="dur" />
+			<property id="hor" />
+			<property id="vert" />
+			<property id="regPoint" />
+			<property id="blur_amount" />
+			<property id="baseScale" />
+		</flash>
+	</dialog>
+
+</group>
+

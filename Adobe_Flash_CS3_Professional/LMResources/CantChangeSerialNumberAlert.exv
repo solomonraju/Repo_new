@@ -1,0 +1,52 @@
+
+kSheetAlertWindowClass						= 15;
+kButtonHeight	  						= 17;
+kAlertTextWidth							= 380;
+kAlertDialogMargin						= 20;
+kSheetWindowClass						= 11;
+kSheetTextWidth							= 380;
+kSheetTextHeight						= 60;
+kSheetDialogMarginWidth						= 30;
+kSheetDialogMarginHeight					= 20;
+
+kALMCantChangeSerialNumberOkayBtnWidgetID				= 101;
+
+kALMBadSerialNumberSheetExvDef					= 9004;
+
+kZID_Vol_DialogBlackBorder					= 9999;
+
+kDialogWindowWidth						= 400;
+kDialogWindowHeight						= 60;
+
+
+
+dialog(type: kSheetAlertWindowClass, child_horizontal: align_fill, margin: kAlertDialogMargin, spacing: 15,name :'$$$/alm/common/window_title')
+{
+	group( view_id: kZID_Vol_DialogBlackBorder, width: kDialogWindowWidth, height: kDialogWindowHeight,
+		   placement: place_offscreen, child_vertical: align_fill, child_horizontal: align_fill,
+		   margin_top: 12, 
+		   margin_bottom: 12,
+		   margin_left: 20,
+		   margin_right:0)
+	{			
+	group( view_id: kALMBadSerialNumberSheetExvDef , visible: true)
+			{
+				font = font_small;
+				group(placement: place_row, child_vertical: align_top, spacing: 20 )
+				{
+					icon(builtin_icon: builtin_icon_warning);
+					group()
+					{
+						width = kAlertTextWidth;
+						
+						static_text( name: '$$$/alm/alert/change_serial_number' );
+					}
+				}
+				group(placement: place_row, horizontal: align_center)
+				{	button( view_id: kALMCantChangeSerialNumberOkayBtnWidgetID, height: kButtonHeight, default: true, name: '$$$/alm/dlg/btn/ok' );
+				}
+			}  	
+									
+
+	}		
+}

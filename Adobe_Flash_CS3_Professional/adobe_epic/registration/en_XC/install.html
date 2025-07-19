@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Registration-Connection Failure</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="./../default.css"></link>
+	<script language="javascript" src="./../domutils.js"></script>
+    <script language="javascript" src="./../wizardcore.js"></script>
+</head>
+
+<body onload="onWizardLoad()" background="./../background.png">
+
+<div id="registration_static_1st_launch_main-title" class="main-title">
+  	Registration - Connection Failure
+</div>
+
+<div id="registration_static_1st_launch_sub-title" class="sub-title">
+  <div class="sub-title-with-error-beige-bg">
+	  <table width="485" cellpadding="0" cellspacing="3">
+		<tr>
+			<td width="33"><img src="./../warning_icon.png" alt="warning" width="22" height="22"></td>
+			<td width="441" class="sub-title-with-warning">We were unable to connect to Adobe to Register your product.</td>
+		</tr>
+  	  </table>
+  </div>	
+</div>
+
+<div id="registration_static_1st_launch_content" class="content">  
+    <br>
+    <span class="content-bold">To proceed with Registration please check the following:</span> 
+    <ol>
+		<li class="list-element">Make sure you're connected to the Internet.</li>
+		<li class="list-element">Make sure JavaScript is enabled in your browser settings.</li>
+		<li class="list-element">Click the Register Now button.</li>
+	</ol>
+    You're almost finished.  Take a few moments to register and enjoy the benefits for years to come. 	
+	<ul>
+	  	<li class="list-element">Product resources - We're here to get you started and help you expand your knowledge</li>
+		<li class="list-element">Downloads and trials - Access the download exchange or take software for a test drive</li>
+		<li class="list-element">Adobe Resource Center - Work better with product tips, tricks, and tutorials</li>
+		<li class="list-element">Adobe Communications - News and updates from Adobe</li>
+	</ul>
+    Adobe does not rent, sell, or lease, customer information to third parties.  
+</div>
+<div id="registration_static_1st_launch_rightbutton" class="rightbutton">
+ 	<form name="registration_first_unsuccessful_next_form">
+		<input name="Never Register" type="button" id="Button1" accesskey="n" tabindex="3" title="Never Register" value="Never Register" onClick="doRegsDoNotRegister()">
+   		<input name="Register Later" type="button" id="registration_static_1st_launch_register_later" accesskey="l" tabindex="2" title="Register Later" value="Register Later" onClick="doRegsRegisterLater()">		
+   		<input name="Register Now" type="button" id="registration_static_1st_launch_register_now" tabindex="1" accesskey="r" title="Regsiter Now" value="Register Now" onClick="doRegsFirstTry()">
+ 	</form>
+</div>
+
+</body>
+</html>

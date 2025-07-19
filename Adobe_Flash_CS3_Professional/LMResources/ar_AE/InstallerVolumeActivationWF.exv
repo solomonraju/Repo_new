@@ -1,0 +1,311 @@
+kALMTrialMeterHeight = 33;
+kALMTrialMeterWidth = 400;
+
+kDialogVerticalSpacing		= 5;
+
+kLongButtonWidth			= 160;
+kExtraLongButtonWidth		= kLongButtonWidth+16;
+kShortButtonWidth			= 95;
+
+kMovableModalWindowClass      = 4;
+
+kDialogWindowWidth 			= 669;
+kDialogWindowHeight 		= 538-28;
+
+kStringMaxWidth 			= 460;
+kStringWidth 				= 400;
+kString3QtrWidth			= 350;
+
+kIndentationOffset			= 12;
+
+kTrailMeterLeftOffset		= 40;
+kBuyButtonMarginRight		= 20;
+kBottomButtonMarginLeft		= 8;
+kBottomButtonMarginBottom	= 8;
+
+kControlBottomMargin		= 35;
+
+kPictureSideLength			= 24;
+
+kZID_Vol_DialogBlackBorder						= 1500;
+
+
+kZID_Vol_LicenseSetup_Title						= 1700;
+kZID_Vol_LicenseSetup_Choose_Pane				= 1701;
+kZID_Vol_LicenseSetup_Choose_Btn_Choose			= 1702;
+kZID_Vol_LicenseSetup_Choose_Btn_Quit			= 1703;
+kZID_Vol_LicenseSetup_Choose_Btn_Back			= 1704;
+kZID_Vol_LicenseSetup_Choose_BoundingBox		= 1706;
+kZID_Vol_LicenseSetup_Choose_text_tag			= 1707;
+kZID_Vol_LicenseSetup_Choose_text_sel			= 1708;
+
+kZID_Vol_LicenseSetup_BadData_Title				= 1800;
+kZID_Vol_LicenseSetup_BadData_Pane				= 1801;
+kZID_Vol_LicenseSetup_BadData_Btn_Choose		= 1802;
+kZID_Vol_LicenseSetup_BadData_Btn_Quit			= 1803;
+kZID_Vol_LicenseSetup_BadData_BoundingBox		= 1806;
+kZID_Vol_LicenseSetup_BadData_Problem_BoundingBox = 1807;
+kZID_Vol_LicenseSetup_BadData_text_sel			= 1808;
+kZID_Vol_LicenseSetup_BadData_sel_file			= 1809;
+kZID_Vol_LicenseSetup_BadData_xboxPict			= 1810;
+
+kZID_Vol_LicenseSetup_BadData_expl_invalid		= 1811;
+kZID_Vol_LicenseSetup_BadData_expl_corrupted	= 1812;
+kZID_Vol_LicenseSetup_BadData_expl_wrongModel	= 1813;
+kZID_Vol_LicenseSetup_BadData_expl_language		= 1814;
+
+kZID_Vol_LicenseSetup_BadDataFound_Pane					= 1851;
+kZID_Vol_LicenseSetup_BadDataFound_Btn_Choose			= 1852;
+kZID_Vol_LicenseSetup_BadDataFound_Btn_Quit				= 1853;
+kZID_Vol_LicenseSetup_BadDataFound_BoundingBox			= 1856;
+kZID_Vol_LicenseSetup_BadDataFound_Problem_BoundingBox	= 1857;
+kZID_Vol_LicenseSetup_BadDataFound_text_sel				= 1858;
+kZID_Vol_LicenseSetup_BadDataFound_sel_file				= 1859;
+kZID_Vol_LicenseSetup_BadDataFound_xboxPict				= 1860;
+
+kZID_Vol_LicenseSetup_BadDataFound_expl_invalid			= 1861;
+kZID_Vol_LicenseSetup_BadDataFound_expl_corrupted		= 1862;
+kZID_Vol_LicenseSetup_BadDataFound_expl_wrongModel		= 1863;
+kZID_Vol_LicenseSetup_BadDataFound_expl_language		= 1864;
+
+kZID_Vol_Validated_Title							= 1900;
+kZID_Vol_LicenseSetup_Valid_Pane				= 1901;
+kZID_Vol_LicenseSetup_Valid_License_Btn_Okay	= 1902;
+
+
+kZID_Def_Dummy_Btn		= 1000;
+
+
+dialog( type: kMovableModalWindowClass, win_ex_style:4194304, close_box: true, name: '$$$/alm/common/window_title', create_system_dialog : true)
+{
+	font = font_small;
+
+	group(placement: place_offscreen, margin_left: 137)
+	{
+		font = font_big_bold;
+		font_size = 14;
+		
+		static_text( width: kStringMaxWidth, view_id: kZID_Vol_LicenseSetup_Title, name: '$$$/alm/dlg/volume/license_setup/title', visible: false );
+		static_text( width: kStringMaxWidth, view_id: kZID_Vol_LicenseSetup_BadData_Title, name: '$$$/alm/dlg/volume/license_setup/titleBad', visible: false );
+		static_text( width: kStringMaxWidth, view_id: kZID_Vol_Validated_Title, name: '$$$/alm/dlg/volume/license_setup/title', visible: false );
+	}	
+	group( view_id: kZID_Vol_DialogBlackBorder, width: kDialogWindowWidth, height: kDialogWindowHeight,
+		   placement: place_offscreen, child_vertical: align_fill, child_horizontal: align_fill,
+		   margin_top: 25, 
+		   margin_bottom: 0,
+		   margin_left: 150,
+		   margin_right:0)
+	{		
+				
+			group( view_id: kZID_Vol_LicenseSetup_Choose_Pane, child_vertical: align_top, spacing: 15, visible: false, enabled : false)
+			{
+				static_text( width: kStringMaxWidth, name: '$$$/alm/dlg/volume/license_setup/choose/explanation');
+				static_text( width: kStringMaxWidth, name:'$$$/alm/dlg/volume/license_setup/choose/example');
+				static_text( name: '$$$/alm/dlg/volume/license_setup/you_can', font: font_small_bold );
+				group(placement: place_offscreen, child_horizontal: align_fill, child_vertical: align_fill)
+				{
+					myBoundingBox(create_user_pane: true, view_id: kZID_Vol_LicenseSetup_Choose_BoundingBox);
+					group ( spacing: 10, left_offset: kIndentationOffset)
+					{
+						static_text(name: '$$$/padding=xxxxxxxxx', visible: false);
+						static_text(name: '$$$/alm/dlg/volume/license_setup/choose/browse', font: font_small_bold);
+						group (placement: place_row, horizontal: align_fill)
+						{
+							group(horizontal: align_left)
+							{
+								static_text( width: kString3QtrWidth-50, name: '$$$/alm/dlg/volume/license_setup/choose/instructions' );
+							}
+							group(horizontal: align_right, margin_right: kBuyButtonMarginRight)
+							{
+								button(view_id: kZID_Vol_LicenseSetup_Choose_Btn_Choose, name: '$$$/alm/dlg/btn/browse', width: kExtraLongButtonWidth);
+							}
+						}
+						static_text(name: '$$$/alm/dlg/volume/license_setup/quit_installation', font: font_small_bold);
+						group (placement: place_row, horizontal: align_fill)
+						{
+							group(horizontal: align_left)
+							{
+								static_text( width: kString3QtrWidth-48, name: '$$$/alm/dlg/volume/license_setup/choose/quit_installation/instructions' );
+							}
+							group(horizontal: align_right, margin_right: kBuyButtonMarginRight)
+							{
+								button(view_id: kZID_Vol_LicenseSetup_Choose_Btn_Quit, name: '$$$/alm/dlg/btn/quit', width: kExtraLongButtonWidth);
+							}
+						}
+						static_text(name: '$$$/padding=xxxxxxxxx', visible: false);
+					}
+				}
+			}
+			
+			group( view_id: kZID_Vol_LicenseSetup_BadData_Pane, child_vertical: align_top, spacing: 12, visible: false, enabled : false)
+			{
+				static_text( width: kStringMaxWidth, name: '$$$/alm/dlg/volume/license_setup/bad_data/chosen/subtitle', font: font_small_bold );
+				group(placement: place_offscreen, child_horizontal: align_fill, child_vertical: align_fill)
+				{
+					myBoundingBox(create_user_pane: true, view_id: kZID_Vol_LicenseSetup_BadData_Problem_BoundingBox);
+					group(spacing: 1, margin_left: 20)
+					{
+						static_text( width: kStringMaxWidth-20, name: '$$$/padding=xxxxxxxxx', visible: false);
+						group(placement: place_row)
+						{
+							picture(horizontal: align_left, vertical:align_top, view_id:kZID_Vol_LicenseSetup_BadData_xboxPict , height:kPictureSideLength, width:kPictureSideLength);
+							group(spacing: 5 )
+							{
+								static_text(name: '$$$/alm/dlg/volume/license_setup/bad_data/problem', font: font_small_bold);
+								group (placement: place_offscreen)
+								{
+									static_text(view_id: kZID_Vol_LicenseSetup_BadData_expl_corrupted, width: kStringWidth-20, name: '$$$/alm/dlg/volume/license_setup/bad_data/explanation/corrupted');
+									static_text(view_id: kZID_Vol_LicenseSetup_BadData_expl_invalid, width: kStringWidth-20, name: '$$$/alm/dlg/volume/license_setup/bad_data/explanation/invalid', visible: false);
+									static_text(view_id: kZID_Vol_LicenseSetup_BadData_expl_wrongModel, width: kStringWidth-20, name: '$$$/alm/dlg/volume/license_setup/bad_data/explanation/wrongModel', visible: false);
+									static_text(view_id: kZID_Vol_LicenseSetup_BadData_expl_language, width: kStringWidth-20, name: '$$$/alm/dlg/volume/license_setup/bad_data/explanation/language', visible: false);
+								}
+							}
+						}
+						static_text( name: '$$$/padding=xxxxxxxxx', visible: false);
+					}
+				}
+				group(spacing: 6)
+				{
+					group(placement: place_row, horizontal: align_fill, spacing: 1, left_offset: kIndentationOffset)
+					{
+						static_text(name: '$$$/alm/dlg/bullet');
+						static_text(name: '$$$/alm/dlg/volume/license_setup/bad_data/chosen/setup_file_tag');
+						static_text(view_id: kZID_Vol_LicenseSetup_BadData_sel_file, width: kString3QtrWidth, name: '$$$/alm/dlg/volume/license_setup/bad_data/found_setup_file');
+					}
+					group(placement: place_row, horizontal: align_fill, spacing: 1, left_offset: kIndentationOffset)
+					{
+						group(placement: place_row, vertical: align_top, spacing: 1)
+						{
+							static_text(name: '$$$/alm/dlg/bullet');
+							static_text(name: '$$$/alm/dlg/volume/license_setup/bad_data/current_setup_file_tag');
+						}
+						static_text(view_id: kZID_Vol_LicenseSetup_BadData_text_sel, width: kString3QtrWidth, name: '$$$/alm/dlg/volume/license_setup/bad_data/current_setup_file');
+					}
+				}
+				static_text( width: kStringMaxWidth, name:'$$$/alm/dlg/volume/license_setup/bad_data/note');
+				static_text( name: '$$$/alm/dlg/volume/license_setup/you_can', font: font_small_bold );
+				group(placement: place_offscreen, child_horizontal: align_fill, child_vertical: align_fill)
+				{
+					myBoundingBox(create_user_pane: true, view_id: kZID_Vol_LicenseSetup_BadData_BoundingBox);
+					group ( spacing: 12, left_offset: kIndentationOffset)
+					{
+						static_text(name: '$$$/alm/dlg/volume/license_setup/bad_data/choose', font: font_small_bold);
+						group (placement: place_row, horizontal: align_fill)
+						{
+							group(horizontal: align_left)
+							{
+								static_text( width: kString3QtrWidth-50, name: '$$$/alm/dlg/volume/license_setup/bad_data/choose/instructions' );
+							}
+							group(horizontal: align_right, margin_right: kBuyButtonMarginRight)
+							{
+								button(view_id: kZID_Vol_LicenseSetup_BadData_Btn_Choose, name: '$$$/alm/dlg/btn/choose_different_file', width: kExtraLongButtonWidth);
+							}
+						}
+						static_text(name: '$$$/alm/dlg/volume/license_setup/quit_installation', font: font_small_bold);
+						group (placement: place_row, horizontal: align_fill)
+						{
+							group(horizontal: align_left)
+							{
+								static_text( width: kString3QtrWidth-50, name: '$$$/alm/dlg/volume/license_setup/bad_data/quit_installation/instructions' );
+							}
+							group(horizontal: align_right, margin_right: kBuyButtonMarginRight)
+							{
+								button(view_id: kZID_Vol_LicenseSetup_BadData_Btn_Quit, name: '$$$/alm/dlg/btn/quit', width: kExtraLongButtonWidth);
+							}
+						}
+					}
+				}
+				
+			}
+
+			group( view_id: kZID_Vol_LicenseSetup_BadDataFound_Pane, child_vertical: align_top, spacing: 12, visible: false, enabled : false)
+			{
+				static_text( width: kStringMaxWidth, name: '$$$/alm/dlg/volume/license_setup/bad_data/found/subtitle', font: font_small_bold );
+				group(placement: place_offscreen, child_horizontal: align_fill, child_vertical: align_fill)
+				{
+					myBoundingBox(create_user_pane: true, view_id: kZID_Vol_LicenseSetup_BadDataFound_Problem_BoundingBox);
+					group(spacing: 1, margin_left: 20)
+					{
+						static_text( width: kStringMaxWidth-20, name: '$$$/padding=xxxxxxxxx', visible: false);
+						group(placement: place_row)
+						{
+							picture(horizontal: align_left, vertical:align_top, view_id: kZID_Vol_LicenseSetup_BadDataFound_xboxPict , height:kPictureSideLength, width:kPictureSideLength);
+							group(spacing: 5 )
+							{
+								static_text(name: '$$$/alm/dlg/volume/license_setup/bad_data/problem', font: font_small_bold);
+								group (placement: place_offscreen)
+								{
+									static_text(view_id: kZID_Vol_LicenseSetup_BadDataFound_expl_corrupted, width: kStringWidth-20, name: '$$$/alm/dlg/volume/license_setup/bad_data/explanation/corrupted');
+									static_text(view_id: kZID_Vol_LicenseSetup_BadDataFound_expl_invalid, width: kStringWidth-20, name: '$$$/alm/dlg/volume/license_setup/bad_data/explanation/invalid', visible: false);
+									static_text(view_id: kZID_Vol_LicenseSetup_BadDataFound_expl_wrongModel, width: kStringWidth-20, name: '$$$/alm/dlg/volume/license_setup/bad_data/explanation/wrongModel', visible: false);
+									static_text(view_id: kZID_Vol_LicenseSetup_BadDataFound_expl_language, width: kStringWidth-20, name: '$$$/alm/dlg/volume/license_setup/bad_data/explanation/language', visible: false);
+								}
+							}
+						}
+						static_text( name: '$$$/padding=xxxxxxxxx', visible: false);
+					}
+				}
+				group(spacing: 6)
+				{
+					group(placement: place_row, horizontal: align_fill, spacing: 1, left_offset: kIndentationOffset)
+					{
+						static_text(name: '$$$/alm/dlg/bullet');
+						static_text(name: '$$$/alm/dlg/volume/license_setup/bad_data/found/setup_file_tag');
+						static_text(view_id: kZID_Vol_LicenseSetup_BadDataFound_sel_file, width: kString3QtrWidth, name: '$$$/alm/dlg/volume/license_setup/bad_data/found_setup_file');
+					}
+					group(placement: place_row, horizontal: align_fill, spacing: 1, left_offset: kIndentationOffset)
+					{
+						static_text(name: '$$$/alm/dlg/bullet');
+						static_text(name: '$$$/alm/dlg/volume/license_setup/bad_data/current_setup_file_tag');
+						static_text(view_id: kZID_Vol_LicenseSetup_BadDataFound_text_sel, width: kString3QtrWidth, name: '$$$/alm/dlg/volume/license_setup/bad_data/current_setup_file');
+					}
+				}
+				static_text( width: kStringMaxWidth, name:'$$$/alm/dlg/volume/license_setup/bad_data/note');
+				static_text( name: '$$$/alm/dlg/volume/license_setup/you_can', font: font_small_bold );
+				group(placement: place_offscreen, child_horizontal: align_fill, child_vertical: align_fill)
+				{
+					myBoundingBox(create_user_pane: true, view_id: kZID_Vol_LicenseSetup_BadDataFound_BoundingBox);
+					group ( spacing: 12, left_offset: kIndentationOffset)
+					{
+						static_text(name: '$$$/alm/dlg/volume/license_setup/bad_data/choose', font: font_small_bold);
+						group (placement: place_row, horizontal: align_fill)
+						{
+							group(horizontal: align_left)
+							{
+								static_text( width: kString3QtrWidth-50, name: '$$$/alm/dlg/volume/license_setup/bad_data/choose/instructions' );
+							}
+							group(horizontal: align_right, margin_right: kBuyButtonMarginRight)
+							{
+								button(view_id: kZID_Vol_LicenseSetup_BadDataFound_Btn_Choose, name: '$$$/alm/dlg/btn/choose_different_file', width: kExtraLongButtonWidth);
+							}
+						}
+						static_text(name: '$$$/alm/dlg/volume/license_setup/quit_installation', font: font_small_bold);
+						group (placement: place_row, horizontal: align_fill)
+						{
+							group(horizontal: align_left)
+							{
+								static_text( width: kString3QtrWidth-50, name: '$$$/alm/dlg/volume/license_setup/bad_data/quit_installation/instructions' );
+							}
+							group(horizontal: align_right, margin_right: kBuyButtonMarginRight)
+							{
+								button(view_id: kZID_Vol_LicenseSetup_BadDataFound_Btn_Quit, name: '$$$/alm/dlg/btn/quit', width: kExtraLongButtonWidth);
+							}
+						}
+					}
+				}
+				
+			}
+
+			group( view_id: kZID_Vol_LicenseSetup_Valid_Pane, child_vertical: align_top, spacing: 15, visible: false, enabled : false)
+			{
+				static_text( width: kStringMaxWidth-20, name: '$$$/alm/dlg/volume/license_setup/choose/validated');
+				
+				
+				group (vertical: align_bottom, horizontal: align_right, placement: place_row, margin_right: kBottomButtonMarginLeft, margin_bottom: kBottomButtonMarginBottom)
+				{
+					button(view_id: kZID_Vol_LicenseSetup_Valid_License_Btn_Okay, name: '$$$/alm/dlg/btn/okay');
+
+				}
+			}
+	}
+}

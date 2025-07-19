@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Verbindingsfout bij registratie</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="./../default.css"></link>
+	<script language="javascript" src="./../domutils.js"></script>
+    <script language="javascript" src="./../wizardcore.js"></script>
+</head>
+
+<body onload="onWizardLoad()" background="./../background.png">
+
+<div id="registration_static_1st_launch_main-title" class="main-title">
+  	Verbindingsfout bij registratie
+</div>
+
+<div id="registration_static_1st_launch_sub-title" class="sub-title">
+  <div class="sub-title-with-error-beige-bg">
+	  <table width="485" cellpadding="0" cellspacing="3">
+		<tr>
+			<td width="33"><img src="./../warning_icon.png" alt="warning" width="22" height="22"></td>
+			<td width="441" class="sub-title-with-warning">Er kan geen verbinding worden gemaakt met Adobe om uw product te registreren.</td>
+		</tr>
+  	  </table>
+  </div>	
+</div>
+
+<div id="registration_static_1st_launch_content" class="content">  
+    <br><br>
+    <span class="content-bold">Controleer de volgende punten om verder te gaan met de registratie:</span> 
+    <br><br>
+		<li class="list-element">Zorg ervoor dat u verbinding hebt met internet.</li>
+		<li class="list-element">Zorg ervoor dat JavaScript is ingeschakeld in deinstellingen van uw browser.</li>
+		<li class="list-element">Klik op de knop Nu registreren.</li>
+	<br><br>
+    U bent bijna klaar.  Neem even de tijd om het product te registreren, zodat u nog jaren kunt genieten van de voordelen. 	
+	<br>
+	  	<li class="list-element">Productinfo - We zijn er om u aan de slag te helpen en uw kennis uit te breiden</li>
+		<li class="list-element">Downloads en proefversies - Ga naar de downloadsite of probeer software uit</li>
+		<li class="list-element">Adobe Resource Center - Werk beter met tips, trucs en zelfstudies voor onze producten</li>
+		<li class="list-element">Adobe Communicatie - Nieuws en updates vanAdobe</li>
+	<br><br>
+    Adobe verhuurt, verkoopt of least geen klantgegevens aan derden.  
+</div>
+<div id="registration_static_1st_launch_rightbutton" class="rightbutton">
+ 	<form name="registration_first_unsuccessful_next_form">
+		<input name="Never Register" type="button" id="Button1" accesskey="n" tabindex="3" title="Nooit registreren" value="Nooit registreren" onClick="doRegsDoNotRegister()">
+   		<input name="Register Later" type="button" id="registration_static_1st_launch_register_later" accesskey="l" tabindex="2" title="Later registreren" value="Later registreren" onClick="doRegsRegisterLater()">
+   		<input name="Register Now" type="button" id="registration_static_1st_launch_register_now" tabindex="1" accesskey="r" title="Nu registreren" value="Nu registreren" onClick="doRegsFirstTry()">
+ 	</form>
+</div>
+
+</body>
+</html>

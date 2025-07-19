@@ -1,0 +1,54 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Registrace - nenalezeno připojen&iacute; k Internetu</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="./../default.css"></link>
+	<script language="javascript" src="./../domutils.js"></script>
+    <script language="javascript" src="./../wizardcore.js"></script>
+</head>
+
+<body onload="onWizardLoad()" background="./../background.png">
+
+<div id="registration_static_1st_launch_main-title" class="main-title">
+  	Registrace
+</div>
+
+<div id="registration_static_1st_launch_sub-title" class="sub-title">
+  <div class="sub-title-with-error-beige-bg">
+	  <table width="485" cellpadding="0" cellspacing="3">
+		<tr>
+			<td width="33"><img src="./../warning_icon.png" alt="upozorněn&iacute;" width="22" height="22"></td>
+			<td width="441" class="sub-title-with-warning">Nebylo možn&eacute; se připojit do Adobe a zaregistrovat V&aacute;&scaron; produkt.</td>
+		</tr>
+  	  </table>
+  </div>	
+</div>
+
+<div id="registration_static_1st_launch_content" class="content">  
+<br><br>
+    <span class="content-bold">Chcete-li v registraci pokračovat, zkontrolujte pros&iacute;m n&aacute;sleduj&iacute;c&iacute;:</span> 
+    <br><br>
+		<li class="list-element">Ověřte, že jste připojen&iacute; k internetu.</li>
+		<li class="list-element">Ověřte, že m&aacute;te v nastaven&iacute;ch webov&eacute;ho prohl&iacute;žeče povolen&yacute; JavaScript.</li>
+		<li class="list-element">Klepněte na tlač&iacute;tko Registrovat nyn&iacute;.</li>
+	<br><br>
+    Jste t&eacute;měř hotov&iacute;.  Věnujte chvilku registraci a využijete v&scaron;ech v&yacute;hod v n&aacute;sleduj&iacute;c&iacute;ch letech. 	
+	<br>
+	  	<li class="list-element">Možnosti produktu - jsme tu, abychom V&aacute;m pomohli zač&iacute;t a d&aacute;le si roz&scaron;iřovat znalosti.</li>
+		<li class="list-element">Ke stažen&iacute; a zku&scaron;ebn&iacute; verze - nav&scaron;tivte v&yacute;měnn&eacute; str&aacute;nky nebo využijte možnosti testov&aacute;n&iacute; software</li>
+		<li class="list-element">Centrum zdrojů Adobe - pracujte l&eacute;pe s pomoc&iacute; tipů, triků a v&yacute;ukov&yacute;ch lekc&iacute; produktů</li>
+		<li class="list-element">Adobe Communications - novinky a aktualizace z Adobe</li>
+	<br><br>
+    Adobe si nepronaj&iacute;m&aacute;, neprod&aacute;v&aacute; ani nepronaj&iacute;m&aacute; informace o uživatel&iacute;ch jin&yacute;m subjektům.  
+</div>
+<div id="registration_static_1st_launch_rightbutton" class="rightbutton">
+ 	<form name="registration_first_unsuccessful_next_form">
+   		<input name="Never Register" type="button" id="Button1" accesskey="n" tabindex="3" title="Neregistrovat nikdy" value="Neregistrovat nikdy" onClick="doRegsDoNotRegister()">
+   		<input name="Register Later" type="button" id="registration_static_1st_launch_register_later" accesskey="l" tabindex="2" title="Registrovat později" value="Registrovat později" onClick="doRegsRegisterLater()">		
+   		<input name="Register Now" type="button" id="registration_static_1st_launch_register_now" tabindex="1" accesskey="r" title="Registrovat" value=" Registrovat" onClick="doRegsFirstTry()">
+ 	</form>
+</div>
+
+</body>
+</html>

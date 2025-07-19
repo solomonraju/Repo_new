@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helppanel>
+<category title="All Books" keyword="" defaultfortab="0"></category>
+<category title="Features" keyword="flashfeatures"></category>
+<category title="ActionScript 2.0" keyword="as2"></category>
+<category title="ActionScript 3.0" keyword="as3"></category>
+<category title="ActionScript 2.0 Components" keyword="components2"></category>
+<category title="ActionScript 3.0 Components" keyword="components3"></category>
+<category title="Extending" keyword="extending"></category>
+<category title="Language References (ActionScript &amp; Components)" keyword="languagereferences"></category>
+<category title="Flash Lite 1.x" keyword="flashlite1"></category>
+<category title="Flash Lite 2.x" keyword="flashlite2"></category>
+<category title="3rd Party" keyword="3rdparty"></category>
+</helppanel>

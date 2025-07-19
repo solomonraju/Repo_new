@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Rekisteröinti — Yhteys epäonnistunut</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="./../default.css"></link>
+	<script language="javascript" src="./../domutils.js"></script>
+    <script language="javascript" src="./../wizardcore.js"></script>
+</head>
+
+<body onload="onWizardLoad()" background="./../background.png">
+
+<div id="registration_static_1st_launch_main-title" class="main-title">
+  	Rekisteröinti — Yhteys epäonnistunut
+</div>
+
+<div id="registration_static_1st_launch_sub-title" class="sub-title">
+  <div class="sub-title-with-error-beige-bg">
+	  <table width="485" cellpadding="0" cellspacing="3">
+		<tr>
+			<td width="33"><img src="./../warning_icon.png" alt="warning" width="22" height="22"></td>
+			<td width="441" class="sub-title-with-warning">Yhteyden muodostus Adobeen tuotteesi rekisteröimiseksi ei onnistunut.</td>
+		</tr>
+  	  </table>
+  </div>
+</div>
+
+<div id="registration_static_1st_launch_content" class="content">
+    <br><br>
+    <span class="content-bold">Jatka rekisteröintiä tarkistamalla seuraavat seikat:</span>
+    <br><br>
+		<li class="list-element">Varmista, että tietokoneestasi on yhteys Internetiin.</li>
+		<li class="list-element">Varmista, että JavaScript on otettu käyttöön selaimen asetuksissa.</li>
+		<li class="list-element">Valitse Rekisteröi nyt</li>
+	<br><br>
+    Rekisteröinti on melkein valmis  Käytä hetki rekisteröintiin ja nauti eduista vuosia eteenpäin.
+	<br>
+	  	<li class="list-element">Tuoteresurssit — Autamme sinua pääsemään alkuun ja oppimaan lisää</li>
+		<li class="list-element">Lataukset ja koeversiot — Käy latauskeskuksessa tai ota sovelluksia koekäyttöön</li>
+		<li class="list-element">Adobe Resource Center — Tehoa työskentelyyn tuotevihjeiden, -niksien ja -opastusten avulla.</li>
+		<li class="list-element">Adobe Communications — Uutisia ja päivityksiä Adobelta</li>
+	<br><br>
+    Adobe ei vuokraa tai myy asiakastietoja kolmansille osapuolille.
+</div>
+<div id="registration_static_1st_launch_rightbutton" class="rightbutton">
+ 	<form name="registration_first_unsuccessful_next_form">
+		<input name="Never Register" type="button" id="Button1" accesskey="n" tabindex="3" title="Älä rekisteröi" value="Älä rekisteröi" onClick="doRegsDoNotRegister()">
+   		<input name="Register Later" type="button" id="registration_static_1st_launch_register_later" accesskey="l" tabindex="2" title="Myöhemmin" value="Myöhemmin" onClick="doRegsRegisterLater()">
+   		<input name="Register Now" type="button" id="registration_static_1st_launch_register_now" tabindex="1" accesskey="r" title="Rekisteröi nyt" value="Rekisteröi nyt" onClick="doRegsFirstTry()">
+ 	</form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<implicitImportsList> 
+     <implicitImport name = "adobe.utils.*"/>
+     <implicitImport name = "flash.accessibility.*"/>
+     <implicitImport name = "flash.display.*"/>
+     <implicitImport name = "flash.errors.*"/>
+     <implicitImport name = "flash.events.*"/>
+     <implicitImport name = "flash.external.*"/>
+     <implicitImport name = "flash.filters.*"/>
+     <implicitImport name = "flash.geom.*"/>
+     <implicitImport name = "flash.media.*"/>
+     <implicitImport name = "flash.net.*"/>
+     <implicitImport name = "flash.printing.*"/>
+     <implicitImport name = "flash.system.*"/>
+     <implicitImport name = "flash.text.*"/>
+     <implicitImport name = "flash.ui.*"/>
+     <implicitImport name = "flash.utils.*"/>
+     <implicitImport name = "flash.xml.*"/>
+</implicitImportsList> 

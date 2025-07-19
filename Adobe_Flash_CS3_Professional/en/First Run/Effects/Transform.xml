@@ -1,0 +1,84 @@
+<group name="Transform/Transition">
+    <effect name="Transform" id = "Transform" />
+    <source file="UberTemplate2.jsfl" />
+    <properties>
+       
+
+<!-- common properties wipe, fade, fly-->
+	<property name="Effect Duration" variable="dur" min="1" defaultValue="30" type="Number" />
+		<!-- number of frames used for the tween -->
+		
+        <property name="Change X Position" variable="xmode" list="Move By, Move To" defaultValue="0" type="Strings" />
+		<!-- Move by=relative, Move to=absolute -->
+		
+	<property name="X Position" variable="xpos" defaultValue="0" type="Number" />
+		<!-- x position of the **end** frame -->
+		<!-- fly in default=-1000, fly out default=1000 -->
+		<!-- see note on Fly for important implementation info -->
+	
+        <property name="Change Y Position" variable="ymode" list="Move By, Move To" defaultValue="0" type="Strings" />
+ 		<!-- Move by=relative, Move to=absolute -->
+		
+       <property name="Y Position" variable="ypos" defaultValue="0" type="Number" />
+		<!-- x position of the **end** frame -->
+	
+        <property name="Change X Scale" variable="xscalemode" list="Resize to Scale, Increase by, Decrease by" defaultValue="0" type="Strings" />
+        <property name="X Scale" variable="xscale" min="0" max="1000" defaultValue="1" type="Double" />
+        <property name="Change Y Scale" variable="yscalemode" list="Resize to Scale, Increase by, Decrease by" defaultValue="0" type="Strings" />
+        <property name="Y Scale" variable="yscale" min="0" max="1000" defaultValue="1" type="Double" />
+        <property name="Change Angle" variable="anglemode" list="Rotate CW By, Rotate CCW By" defaultValue="0" type="Strings" />
+        <property name="Angle" variable="angle" min="0" max="99999" defaultValue="0" type="Number" />
+        <property name="Change Color" variable="colormode" list="No, Fade to Color" defaultValue="0" type="Strings" />
+        <property name="Color" variable="color" min="0" defaultValue="17895690" type="Number" />
+        <property name="Motion Ease" variable="easing" min="-100" max="100" defaultValue="0" type="Number" />
+	
+<!-- wipe in/out  properties-->
+	<property name="Direction" variable="direction" list="Wipe Down, Wipe Up, Wipe Left, Wipe Right" defaultValue="0" type="Strings" />
+
+	
+	
+<!-- new properties -->
+	<property name="Change Alpha" variable="changealpha" list="no, yes" defaultValue="no" type="Strings" />
+	<property name="Alpha" variable="alpha" min="0" max="100" defaultValue="100" type="Number" />
+        <property name="Fly" variable="fly" list="out, none" defaultValue="out" type="Strings" />
+		<!-- always use fly out or none.  Fly out will animate to/by x position, y position.  This is consistent with our config ui -->
+
+	<property name="Fade" variable="fade" list="none, in, out" defaultValue="none" type="Strings" />
+        <property name="Wipe" variable="wipe" list="none, in, out" defaultValue="none" type="Strings" />
+
+		<!-- Used by live preview to determine if editing or not -->
+		<property name="First" variable="first" defaultValue="1" type="Number" />
+	
+    </properties>
+
+
+	<!--  buttons="accept, cancel" -->
+	<dialog id="transform-dialog" title="Transform"> 
+		<flash id="transform_ui" src="transform.swf" width="772" height="456">
+			<property id="dur" />
+			<property id="xmode" />
+			<property id="xpos" />
+			<property id="ymode" />
+			<property id="ypos" />
+			<property id="xscalemode" />
+			<property id="xscale" />
+			<property id="yscalemode" />
+			<property id="yscale" />
+			<property id="anglemode" />
+			<property id="angle" />
+			<property id="colormode" />
+			<property id="color" />
+			<property id="easing" />
+			<property id="direction" />
+			<property id="changealpha" />
+			<property id="alpha" />
+			<property id="fly" />
+			<property id="fade" />
+			<property id="wipe" />
+			<property id="first" />
+		</flash>
+	</dialog>
+
+
+
+</group>

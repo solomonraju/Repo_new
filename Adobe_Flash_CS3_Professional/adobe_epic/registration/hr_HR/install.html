@@ -1,0 +1,54 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Registracija &ndash; nije otkrivena internetska veza</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="./../default.css"></link>
+	<script language="javascript" src="./../domutils.js"></script>
+    <script language="javascript" src="./../wizardcore.js"></script>
+</head>
+
+<body onload="onWizardLoad()" background="./../background.png">
+
+<div id="registration_static_1st_launch_main-title" class="main-title">
+  	Registracija
+</div>
+
+<div id="registration_static_1st_launch_sub-title" class="sub-title">
+  <div class="sub-title-with-error-beige-bg">
+	  <table width="485" cellpadding="0" cellspacing="3">
+		<tr>
+			<td width="33"><img src="./../warning_icon.png" alt="upozorenje" width="22" height="22"></td>
+			<td width="441" class="sub-title-with-warning">Povezivanje s tvrtkom Adobe radi registracije proizvoda nije uspjelo.</td>
+		</tr>
+  	  </table>
+  </div>	
+</div>
+
+<div id="registration_static_1st_launch_content" class="content">  
+    <br><br>
+    <span class="content-bold">Da biste nastavili s registracijom, provjerite sljedeće:</span> 
+    <br><br>
+		<li class="list-element">Povjerite jeste li povezani s internetom.</li>
+		<li class="list-element">Provjerite je li JavaScript omogućen u postavkama preglednika.</li>
+		<li class="list-element">Kliknite gumb Registriraj sada.</li>
+	<br><br>
+    Gotovo ste zavr&scaron;ili.  Odvojite nekoliko trenutaka za registraciju, a zatim godinama uživajte u pogodnostima. 	
+	<br>
+	  	<li class="list-element">Resursi proizvoda &ndash; ovdje smo da bismo vam olak&scaron;ali početak rada i pro&scaron;irenje va&scaron;ih znanja</li>
+		<li class="list-element">Preuzimanja i probe &ndash; pristupite razmjeni podataka za preuzimanje ili uzmite softver &quot;na probnu vožnju&quot;</li>
+		<li class="list-element">Adobeov resursni centar &ndash; pobolj&scaron;ajte svoj rad pomoću savjeta, trikova i lekcija o proizvodu</li>
+		<li class="list-element">Adobeove komunikacije &ndash; novosti i nadopune iz tvrtke Adobe </li>
+	<br><br>
+    Adobe ne iznajmljuje, ne prodaje, niti daje na kori&scaron;tenje informacije o svojim korisnicima drugim stranama.  
+</div>
+<div id="registration_static_1st_launch_rightbutton" class="rightbutton">
+ 	<form name="registration_first_unsuccessful_next_form">
+   		<input name="Never Register" type="button" id="Button1" accesskey="n" tabindex="3" title="Uopće ne registriraj" value="Uopće ne registriraj" onClick="doRegsDoNotRegister()">	
+   		<input name="Register Later" type="button" id="registration_static_1st_launch_register_later" accesskey="l" tabindex="2" title="Registriraj poslije" value="Registriraj poslije" onClick="doRegsRegisterLater()">	
+   		<input name="Register Now" type="button" id="registration_static_1st_launch_register_now" tabindex="1" accesskey="r" title="Registriraj sada" value=" Registriraj sada" onClick="doRegsFirstTry()">
+ 	</form>
+</div>
+
+</body>
+</html>

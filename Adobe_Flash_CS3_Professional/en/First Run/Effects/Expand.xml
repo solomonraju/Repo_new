@@ -1,0 +1,34 @@
+<group name = "Effects">
+
+	<effect name = "Expand" id = "Expand" />
+	<source file = "Expand.jsfl" />
+	<allow types = "button, movie clip, graphic, text, bitmap" />
+	
+	<properties>
+		<property name="Expand Duration" variable="outDur" min="1" defaultValue="20" type="Number" />		
+		<property name="Squeeze Duration" variable="inDur" min="0" defaultValue="0" type="Number" />		
+		<property name="Expand Direction" variable="direction" list="From Center,To Left,To Right" defaultValue="0" type="Strings" />
+		<property name="Expand Spacing" variable="space" defaultValue="20" type="Number" />
+		<property name="Shift Horizontal by" variable="xScale" defaultValue="0" type="Number" />
+		<property name="Shift Vertical by" variable="yScale" defaultValue="0" type="Number" />
+		<property name="Extend Width by" variable="wid" defaultValue="0" type="Number" />
+		<property name="Extend Height by" variable="hei" defaultValue="0" type="Number" />
+		<property name="First" variable="first" defaultValue="1" type="Number" />
+	</properties>
+	<!--  buttons="accept, cancel"> -->
+	<dialog id="expand-dialog" title="Expand"> 
+		<flash id="expand_ui" src="expand.swf" width="772" height="456">
+			<property id="outDur" />
+			<property id="inDur" />
+			<property id="direction" />
+			<property id="space" />
+			<property id="xScale" />
+			<property id="yScale" />
+			<property id="wid" />
+			<property id="hei" />
+			<property id="first" />
+		</flash>
+	</dialog>
+	
+</group>
+
